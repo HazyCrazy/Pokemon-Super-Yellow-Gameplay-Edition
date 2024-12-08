@@ -1,0 +1,46 @@
+MoveEffects_MoveAttributes
+
+Vanilla
+
+#===============================================================================
+# Power increases with the target's positive stat changes (ignores negative ones).
+# (Punishment)
+#===============================================================================
+class Battle::Move::PowerHigherWithTargetPositiveStatStages < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    mult = 3
+    GameData::Stat.each_battle { |s| mult += target.stages[s.id] if target.stages[s.id] > 0 }
+    return [20 * mult, 200].min
+  end
+end
+
+Super Yellow
+
+#===============================================================================
+# Power increases with the target's positive stat changes (ignores negative ones).
+# (Punishment)
+#===============================================================================
+class Battle::Move::PowerHigherWithTargetPositiveStatStages < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    mult = 3
+    GameData::Stat.each_battle { |s| mult += target.stages[s.id] if target.stages[s.id] > 0 }
+    return [25 * mult, 250].min
+  end
+end
+
+Punishment PBS (moves.txt)
+
+#-------------------------------
+[PUNISHMENT]
+Name = Punishment
+Type = DARK
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 2
+FunctionCode = PowerHigherWithTargetPositiveStatStages
+Flags = Contact,CanProtect,CanMirrorMove
+Description = This attack's power increases the more the target has powered up with stat changes. This move always goes first.
+#-------------------------------

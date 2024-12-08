@@ -1,0 +1,32 @@
+MoveEffects_BattlerOther
+
+Vanilla
+
+#===============================================================================
+# Puts the target to sleep. Fails if user is not Darkrai. (Dark Void (Gen 7+))
+#===============================================================================
+class Battle::Move::SleepTargetIfUserDarkrai < Battle::Move::SleepTarget
+  def pbMoveFailed?(user, targets)
+    if !user.isSpecies?(:DARKRAI) && user.effects[PBEffects::TransformSpecies] != :DARKRAI
+      @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis))
+      return true
+    end
+    return false
+  end
+end
+
+Super Yellow 
+
+#===============================================================================
+# Makes the target drowzy. Fails if user is Smeragle. (Dark Void (Gen 7+))
+# This can only be done because Super Yellow does not use the Drowzy status
+#===============================================================================
+class Battle::Move::SleepTargetIfUserDarkrai < Battle::Move::SleepTarget
+  def pbMoveFailed?(user, targets)
+    if user.isSpecies?(:SMEARGLE) && user.effects[PBEffects::TransformSpecies] == :SMEARGLE
+      @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis))
+      return true
+    end
+    return false
+  end
+end

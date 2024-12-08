@@ -1,0 +1,61 @@
+Vaniila 
+
+Battle_AbilityEffects
+
+#===============================================================================
+# CriticalCalcFromTarget handlers
+#===============================================================================
+
+Battle::AbilityEffects::CriticalCalcFromTarget.add(:BATTLEARMOR,
+  proc { |ability, user, target, c|
+    next -1
+  }
+)
+
+Battle::AbilityEffects::CriticalCalcFromTarget.copy(:BATTLEARMOR, :SHELLARMOR)
+
+Battle_ItemEffects
+
+#===============================================================================
+# CriticalCalcFromUser handlers
+#===============================================================================
+
+Battle::ItemEffects::CriticalCalcFromUser.add(:LUCKYPUNCH,
+  proc { |item, user, target, c|
+    next c + 2 if user.isSpecies?(:BLISSEY)
+  }
+)
+
+#===============================================================================
+# CriticalCalcFromTarget handlers
+#===============================================================================
+
+# There aren't any from the offical Pokemon games!
+
+Super Yellow 
+
+#===============================================================================
+# CriticalCalcFromUser handlers
+#===============================================================================
+
+Battle::ItemEffects::CriticalCalcFromUser.add(:LUCKYPUNCH,
+  proc { |item, user, target, c|
+    next c + 2 if user.isSpecies?(:BLISSEY)
+  }
+)
+
+#===============================================================================
+# CriticalCalcFromTarget handlers
+#===============================================================================
+
+Battle::ItemEffects::CriticalCalcFromTarget.add(:LUCKYPUNCH,
+  proc { |item, user, target, c|
+    next -1 if user.isSpecies?(:BLISSEY)
+  }
+)
+
+If you choose to give this Item Effect to Blissey,
+so it can do something that Eviolite Chansey can't,
+you should remove Refresh or Aromatherpy from the Happiny line's Movepool,
+if you have given Blissey Cotton Guard and one of it's abilities is Scrappy, 
+so it is not outclassed by Eviolite Chansey.

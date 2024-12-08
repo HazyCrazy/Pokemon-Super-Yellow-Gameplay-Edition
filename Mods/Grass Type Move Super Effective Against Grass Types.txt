@@ -1,0 +1,28 @@
+MoveEffects_BattlerOther
+
+Vanilla Effects
+
+#===============================================================================
+# Freezes the target. Effectiveness against Water-type is 2x. (Freeze-Dry)
+#===============================================================================
+class Battle::Move::FreezeTargetSuperEffectiveAgainstWater < Battle::Move::FreezeTarget
+  def pbCalcTypeModSingle(moveType, defType, user, target)
+    return Effectiveness::SUPER_EFFECTIVE_MULTIPLIER if defType == :WATER
+    return super
+  end
+end
+
+Super Yellow (Brand New Addition not in the vanilla games)
+
+#===============================================================================
+# Paralyze the target. Effectiveness against Grass-type is 2x. (Cut)
+#===============================================================================
+class Battle::Move::ParalyzeTargetSuperEffectiveAgainstGrass < Battle::Move::ParalyzeTarget
+  def pbCalcTypeModSingle(moveType, defType, user, target)
+    return Effectiveness::SUPER_EFFECTIVE_MULTIPLIER if defType == :GRASS
+    return super
+  end
+end
+
+Cut PBS (moves.txt)
+

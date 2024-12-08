@@ -1,0 +1,130 @@
+MoveEffects_Healing
+
+
+Mind Blown 
+#===============================================================================
+# Damages user by 1/2 of its max HP, even if this move misses. (Mind Blown)
+#===============================================================================
+class Battle::Move::UserLosesHalfOfTotalHPExplosive < Battle::Move
+  def worksWithNoTargets?; return true; end
+
+  def pbMoveFailed?(user, targets)
+    if !@battle.moldBreaker
+      bearer = @battle.pbCheckGlobalAbility(:DAMP)
+      if bearer
+        @battle.pbShowAbilitySplash(bearer)
+        if Battle::Scene::USE_ABILITY_SPLASH
+          @battle.pbDisplay(_INTL("{1} cannot use {2}!", user.pbThis, @name))
+        else
+          @battle.pbDisplay(_INTL("{1} cannot use {2} because of {3}'s {4}!",
+                                  user.pbThis, @name, bearer.pbThis(true), bearer.abilityName))
+        end
+        @battle.pbHideAbilitySplash(bearer)
+        return true
+      end
+    end
+    return false
+  end
+
+  def pbSelfKO(user)
+    return if !user.takesIndirectDamage?
+    user.pbReduceHP((user.totalhp / 2.0).round, false)
+    user.pbItemHPHealCheck
+  end
+end
+
+#===============================================================================
+# User faints, even if the move does nothing else. (Explosion, Self-Destruct)
+#===============================================================================
+class Battle::Move::UserFaintsExplosive < Battle::Move
+  def worksWithNoTargets?;      return true; end
+  def pbNumHits(user, targets); return 1;    end
+
+  def pbMoveFailed?(user, targets)
+    if !@battle.moldBreaker
+      bearer = @battle.pbCheckGlobalAbility(:DAMP)
+      if bearer
+        @battle.pbShowAbilitySplash(bearer)
+        if Battle::Scene::USE_ABILITY_SPLASH
+          @battle.pbDisplay(_INTL("{1} cannot use {2}!", user.pbThis, @name))
+        else
+          @battle.pbDisplay(_INTL("{1} cannot use {2} because of {3}'s {4}!",
+                                  user.pbThis, @name, bearer.pbThis(true), bearer.abilityName))
+        end
+        @battle.pbHideAbilitySplash(bearer)
+        return true
+      end
+    end
+    return false
+  end
+
+  def pbSelfKO(user)
+    return if user.fainted?
+    user.pbReduceHP(user.hp, false)
+    user.pbItemHPHealCheck
+  end
+end
+
+#===============================================================================
+# User faints, removes hazards, even if the move does nothing else. (Explosion, Self-Destruct)
+#===============================================================================
+class Battle::Move::UserFaintsRemovesHazardsExplosive < Battle::Move
+  def worksWithNoTargets?;      return true; end
+  def pbNumHits(user, targets); return 1;    end
+
+  def pbMoveFailed?(user, targets)
+    if !@battle.moldBreaker
+      bearer = @battle.pbCheckGlobalAbility(:DAMP)
+      if bearer
+        @battle.pbShowAbilitySplash(bearer)
+        if Battle::Scene::USE_ABILITY_SPLASH
+          @battle.pbDisplay(_INTL("{1} cannot use {2}!", user.pbThis, @name))
+        else
+          @battle.pbDisplay(_INTL("{1} cannot use {2} because of {3}'s {4}!",
+                                  user.pbThis, @name, bearer.pbThis(true), bearer.abilityName))
+        end
+        @battle.pbHideAbilitySplash(bearer)
+        return true
+      end
+    end
+    return false
+  end
+  
+  def pbEffectAfterAllHits(user, target)
+    return if user.fainted? || target.damageState.unaffected
+    if user.effects[PBEffects::Trapping] > 0
+      trapMove = GameData::Move.get(user.effects[PBEffects::TrappingMove]).name
+      trapUser = @battle.battlers[user.effects[PBEffects::TrappingUser]]
+      @battle.pbDisplay(_INTL("{1} got free of {2}'s {3}!", user.pbThis, trapUser.pbThis(true), trapMove))
+      user.effects[PBEffects::Trapping]     = 0
+      user.effects[PBEffects::TrappingMove] = nil
+      user.effects[PBEffects::TrappingUser] = -1
+    end
+    if user.effects[PBEffects::LeechSeed] >= 0
+      user.effects[PBEffects::LeechSeed] = -1
+      @battle.pbDisplay(_INTL("{1} shed Leech Seed!", user.pbThis))
+    end
+    if user.pbOwnSide.effects[PBEffects::StealthRock]
+      user.pbOwnSide.effects[PBEffects::StealthRock] = false
+      @battle.pbDisplay(_INTL("{1} blew away stealth rocks!", user.pbThis))
+    end
+    if user.pbOwnSide.effects[PBEffects::Spikes] > 0
+      user.pbOwnSide.effects[PBEffects::Spikes] = 0
+      @battle.pbDisplay(_INTL("{1} blew away spikes!", user.pbThis))
+    end
+    if user.pbOwnSide.effects[PBEffects::ToxicSpikes] > 0
+      user.pbOwnSide.effects[PBEffects::ToxicSpikes] = 0
+      @battle.pbDisplay(_INTL("{1} blew away poison spikes!", user.pbThis))
+    end
+    if user.pbOwnSide.effects[PBEffects::StickyWeb]
+      user.pbOwnSide.effects[PBEffects::StickyWeb] = false
+      @battle.pbDisplay(_INTL("{1} blew away sticky webs!", user.pbThis))
+    end
+  end
+
+  def pbSelfKO(user)
+    return if !user.takesIndirectDamage?
+    user.pbReduceHP((user.totalhp / 1.1).round, false)
+    user.pbItemHPHealCheck
+  end
+end

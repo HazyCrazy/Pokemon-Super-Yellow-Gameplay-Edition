@@ -1,0 +1,64 @@
+Vanilla Battle Bond (From the Gen 9 Pack)
+
+#===============================================================================
+# Battle Bond
+#===============================================================================
+# Gen 9+ version that boosts stats instead of becoming Ash-Greninja.
+#-------------------------------------------------------------------------------
+Battle::AbilityEffects::OnEndOfUsingMove.add(:BATTLEBOND,
+  proc { |ability, user, targets, move, battle|
+    next if Settings::MECHANICS_GENERATION < 9
+    next if user.fainted? || battle.pbAllFainted?(user.idxOpposingSide)
+    next if !user.isSpecies?(:GRENINJA) || user.effects[PBEffects::Transform]
+    next if battle.battleBond[user.index & 1][user.pokemonIndex]
+    numFainted = 0
+    targets.each { |b| numFainted += 1 if b.damageState.fainted }
+    next if numFainted == 0
+    battle.pbShowAbilitySplash(user)
+    battle.battleBond[user.index & 1][user.pokemonIndex] = true
+    battle.pbDisplay(_INTL("{1} became fully charged due to its bond with its Trainer!", user.pbThis))
+    battle.pbHideAbilitySplash(user)
+    showAnim = true
+    [:ATTACK, :SPECIAL_ATTACK, :SPEED].each do |stat|
+      next if !user.pbCanRaiseStatStage?(stat, user)
+      if user.pbRaiseStatStage(stat, 1, user, showAnim)
+        showAnim = false
+      end
+    end
+    battle.pbDisplay(_INTL("{1}'s stats won't go any higher!", user.pbThis)) if showAnim
+  }
+)
+
+Super Yellow Battle Bond (Super Yellow allows any Pokemon to gain the one time boost)
+
+#===============================================================================
+# Battle Bond
+#===============================================================================
+# Gen 9+ version that boosts stats instead of becoming Ash-Greninja.
+# Super Yellow allows any Pokemon to gain the one time boost
+#-------------------------------------------------------------------------------
+Battle::AbilityEffects::OnEndOfUsingMove.add(:BATTLEBOND,
+  proc { |ability, user, targets, move, battle|
+    next if Settings::MECHANICS_GENERATION < 9
+    next if user.fainted? || battle.pbAllFainted?(user.idxOpposingSide)
+    # next if !user.isSpecies?(:GRENINJA) || user.effects[PBEffects::Transform]
+	next if user.effects[PBEffects::Transform]
+    next if battle.battleBond[user.index & 1][user.pokemonIndex]
+    numFainted = 0
+    targets.each { |b| numFainted += 1 if b.damageState.fainted }
+    next if numFainted == 0
+    battle.pbShowAbilitySplash(user)
+    battle.battleBond[user.index & 1][user.pokemonIndex] = true
+    # battle.pbDisplay(_INTL("{1} became fully charged due to its bond with its Trainer!", user.pbThis))
+	battle.pbDisplay(_INTL("{1} became fully charged due to its drive to thrive!", user.pbThis))
+    battle.pbHideAbilitySplash(user)
+    showAnim = true
+    [:ATTACK, :SPECIAL_ATTACK, :SPEED].each do |stat|
+      next if !user.pbCanRaiseStatStage?(stat, user)
+      if user.pbRaiseStatStage(stat, 1, user, showAnim)
+        showAnim = false
+      end
+    end
+    battle.pbDisplay(_INTL("{1}'s stats won't go any higher!", user.pbThis)) if showAnim
+  }
+)

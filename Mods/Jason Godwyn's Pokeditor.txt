@@ -1,0 +1,216 @@
+These script functions are for the benefit of easily getting into 
+Pokemon battles at their full potenial, without wasting your life.
+
+##Jason Godwyn's Nature Changer for Pokeditor
+def pbChangeNature
+  commands = []
+  ids = []
+  $player.party.each do |pokemon|
+    next if pokemon.egg?
+    commands.push("#{pokemon.name} (#{GameData::Nature.get(pokemon.nature).real_name})")
+    ids.push(pokemon)
+  end
+  commands.push(_INTL("[Cancel]"))
+  cmd = -1
+  loop do
+    msg = _INTL("Choose a Pokémon to change its nature.")
+    cmd = pbMessage(msg, commands, -1)
+    break if cmd < 0 || cmd >= commands.length - 1
+    pokemon = ids[cmd]
+    nature_commands = []
+    nature_ids = []
+    GameData::Nature.each do |nature|
+      if nature.stat_changes.empty?
+        nature_commands.push(_INTL("{1} (---)", nature.real_name))
+      else
+        plus_text = ""
+        minus_text = ""
+        nature.stat_changes.each do |change|
+          if change[1] > 0
+            plus_text += "/" if !plus_text.empty?
+            plus_text += GameData::Stat.get(change[0]).name_brief
+          elsif change[1] < 0
+            minus_text += "/" if !minus_text.empty?
+            minus_text += GameData::Stat.get(change[0]).name_brief
+          end
+        end
+        nature_commands.push(_INTL("{1} (+{2}, -{3})", nature.real_name, plus_text, minus_text))
+      end
+      nature_ids.push(nature.id)
+    end
+    nature_commands.push(_INTL("[Reset]"))
+    nature_commands.push(_INTL("[Back]"))
+    loop do
+      nature_cmd = pbMessage("Select a nature", nature_commands, 0)
+    break if cmd < 0 || cmd >= commands.length - 1
+      if nature_cmd >= 0 && nature_cmd < nature_commands.length - 2   # Set nature
+        pokemon.nature = nature_ids[nature_cmd]
+        pbMessage(_INTL("{1}'s nature is set to {2}.", pokemon.name, GameData::Nature.get(pokemon.nature).real_name))
+        # Update the Pokémon's name and nature in the commands array
+        commands[cmd] = "#{pokemon.name} (#{GameData::Nature.get(pokemon.nature).real_name})"
+        break
+      elsif nature_cmd == nature_commands.length - 2   # Reset
+        pokemon.nature = nil
+        pbMessage(_INTL("{1}'s nature has been reset.", pokemon.name))
+        # Update the Pokémon's name and nature in the commands array
+        commands[cmd] = "#{pokemon.name} (#{GameData::Nature.get(pokemon.nature).real_name})"
+        break
+      elsif nature_cmd == nature_commands.length - 1   # Back button
+        break
+      end
+    end
+  end
+end
+
+def pbGetRelearnableMoves(pokemon)
+  return [] if !pokemon || pokemon.egg? || pokemon.shadowPokemon?
+  moves = []
+
+  # Add moves from level-up moves
+  pokemon.getMoveList.each do |move|
+    move_id = move[1]
+    next if move[0] > pokemon.level || pokemon.hasMove?(move_id)
+    moves << move_id if !moves.include?(move_id)
+  end
+
+# Add moves from TMs and HMs
+tm_moves = pokemon.species_data.moves
+if tm_moves
+  if tm_moves.is_a?(Array)
+    moves.concat(tm_moves.select { |move| move[0] == :TM && !pokemon.hasMove?(move[1]) }.map { |move| move[1] })
+  else
+    moves << tm_moves[1] if tm_moves[0] == :TM && !pokemon.hasMove?(tm_moves[1])
+  end
+end
+
+  # Add moves from tutor moves
+  tutor_moves = pokemon.species_data.tutor_moves
+  if tutor_moves
+    if tutor_moves.is_a?(Array)
+      moves.concat(tutor_moves.reject { |move_id| pokemon.hasMove?(move_id[1]) })
+    else
+      moves << tutor_moves if !pokemon.hasMove?(tutor_moves)
+    end
+  end
+
+  # Add moves from egg moves
+  egg_moves = pokemon.species_data.egg_moves
+  if egg_moves
+    if egg_moves.is_a?(Array)
+      moves.concat(egg_moves.reject { |move_id| pokemon.hasMove?(move_id[1]) })
+    else
+      moves << egg_moves if !pokemon.hasMove?(egg_moves)
+    end
+  end
+
+  moves.uniq!
+  moves.sort_by! { |move_id| GameData::Move.get(move_id).name }
+  moves
+end
+
+# https://www.youtube.com/@JasonGodwin69
+##Jason's Move Teacher
+def pbTeachMovePokedit
+  commands = []
+  pokemon_list = []
+  $player.party.each do |pokemon|
+    next if pokemon.egg?
+    moves = pbGetRelearnableMoves(pokemon)
+    next if moves.empty?
+    commands << "#{pokemon.name} (Level #{pokemon.level})"
+    pokemon_list << pokemon
+  end
+  commands << _INTL("[Cancel]")
+  cmd = -1
+  loop do
+    msg = _INTL("Choose a Pokémon to teach a move.")
+    cmd = pbMessage(msg, commands, -1)
+    break if cmd < 0 || cmd >= commands.length - 1
+    pokemon = pokemon_list[cmd]
+    moves = pbGetRelearnableMoves(pokemon)
+    move_commands = moves.map { |move_id| pbGetMoveName(move_id) }
+    move_commands << _INTL("[Back]")
+    loop do
+      move_cmd = pbMessage("Select a move to teach.", move_commands, 0)
+      break if move_cmd == move_commands.length - 1 # Back button
+      next if move_cmd < 0 || move_cmd >= move_commands.length - 1
+
+      move_id = moves[move_cmd]
+      if move_id && GameData::Move.exists?(move_id)
+        pbLearnMove(pokemon, move_id)
+      else
+        pbMessage("Invalid move ID: #{move_id}")
+      end
+      break
+    end
+  end
+end
+
+def pbGetMoveName(move_id)
+  move_data = GameData::Move.try_get(move_id)
+  return "Unknown Move (ID: #{move_id})" unless move_data
+  return move_data.name
+end
+
+##Jason Godwyn's Pokeditor Ability Changer
+def pbChangeAbilityJason
+  commands = []
+  ids = []
+  $player.party.each do |pokemon|
+    next if pokemon.egg?
+    commands.push("#{pokemon.name} (Ability: #{ability_name(pokemon.ability)})")
+    ids.push(pokemon)
+  end
+  commands.push(_INTL("[Cancel]"))
+  cmd = -1
+  loop do
+    msg = _INTL("Choose a Pokémon to change its ability.")
+    cmd = pbMessage(msg, commands, -1)
+    break if cmd < 0 || cmd >= commands.length - 1
+    pokemon = ids[cmd]
+    ability_commands = []
+    ability_ids = []
+    
+    # Retrieve the list of abilities the Pokémon can learn based on species
+    ability_list = pokemon.species_data.abilities
+    
+    # Append Hidden Ability to the list if available
+    hidden_ability = GameData::Ability.get(pokemon.species_data.hidden_abilities[0]) if pokemon.species_data.hidden_abilities.length > 0
+    ability_list.push(hidden_ability) if hidden_ability
+    
+    ability_list.each do |ability_id|
+      ability = GameData::Ability.get(ability_id)
+      ability_name = ability_name(ability.id)
+      next if ability_ids.include?(ability.id)  # Skip duplicate abilities
+      ability_commands.push(_INTL("{1}", ability_name))
+      ability_ids.push(ability.id)  # Add the ability ID to the array
+    end
+    
+    ability_commands.push(_INTL("[Reset]"))
+    ability_commands.push(_INTL("[Back]"))
+    loop do
+      ability_cmd = pbMessage("Select an ability.", ability_commands, 0)
+      break if ability_cmd < 0 || ability_cmd >= ability_commands.length - 1
+      
+      if ability_cmd >= 0 && ability_cmd < ability_commands.length - 2   # Set ability
+        pokemon.ability = ability_ids[ability_cmd]  # Retrieve the ability ID from the array
+        pbMessage(_INTL("{1}'s ability is set to {2}.", pokemon.name, ability_name(pokemon.ability)))
+        # Update the Pokémon's name and ability in the commands array
+        commands[cmd] = "#{pokemon.name} (Ability: #{ability_name(pokemon.ability)})"
+        break
+      elsif ability_cmd == ability_commands.length - 2   # Reset
+        pokemon.ability = nil
+        pbMessage(_INTL("{1}'s ability has been reset.", pokemon.name))
+        # Update the Pokémon's name and ability in the commands array
+        commands[cmd] = "#{pokemon.name} (Ability: #{ability_name(pokemon.ability)})"
+        break
+      elsif ability_cmd == ability_commands.length - 1   # Back button
+        break
+      end
+    end
+  end
+end
+
+def ability_name(ability_id)
+  return ability_id ? GameData::Ability.get(ability_id).name : "---"
+end

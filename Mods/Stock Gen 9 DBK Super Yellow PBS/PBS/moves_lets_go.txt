@@ -1,0 +1,160 @@
+﻿#-------------------------------
+[FLOATYFALL]
+Name = Floaty Fall
+Type = FLYING
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 5
+Description = The user floats in the air, and dives to attack the target. This may also make the target flinch.
+#-------------------------------
+[SPLISHYSPLASH]
+Name = Splishy Splash
+Type = WATER
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The user charges a huge wave with and hits opposing Pokémon. This may also inflict paralysis.
+#-------------------------------
+[ZIPPYZAP]
+Name = Zippy Zap
+Type = ELECTRIC
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 2
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,HighCriticalHitRate
+Description = The user attacks with electricity. This move always goes first has a high critical-hit ratio.
+#-------------------------------
+[BADDYBAD]
+Name = Baddy Bad
+Type = DARK
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartWeakenPhysicalDamageAgainstUserSide
+Description = The user attacks the target. A wall of light weakens the power of the foe's physical moves.
+#-------------------------------
+[BOUNCYBUBBLE]
+Name = Bouncy Bubble
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = The user shoots water bubbles at the target. Restores its HP by half the damage dealt.
+#-------------------------------
+[BUZZYBUZZ]
+Name = Buzzy Buzz
+Type = ELECTRIC
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove
+EffectChance = 15
+Description = The user shoots a jolt of electricity to attack the target. This may also paralyze the target.
+#-------------------------------
+[FREEZYFROST]
+Name = Freezy Frost
+Type = ICE
+Category = Special
+Power = 100
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = ResetTargetStatStages
+Flags = CanProtect,CanMirrorMove
+Description = The user attacks with frozen crystals. It eliminates every stat change among all Pokémon in battle.
+#-------------------------------
+[GLITZYGLOW]
+Name = Glitzy Glow
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartWeakenSpecialDamageAgainstUserSide
+Description = The user bombards the target. A wall of light weakens the power of the foe's special moves.
+#-------------------------------
+[SAPPYSEED]
+Name = Sappy Seed
+Type = GRASS
+Category = Physical
+Power = 90
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove,ZPower_ResetStats
+Description = The user grows a gigantic stalk. These seeds drain the target’s HP every turn.
+#-------------------------------
+[SIZZLYSLIDE]
+Name = Sizzly Slide
+Type = FIRE
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = BurnTarget
+EffectChance = 15
+Flags = Contact,CanProtect,CanMirrorMove,ZPower_ATTACK_1
+Description = The user cloaks itself in fire and charges into everything. May also burn the target.
+#-------------------------------
+[SPARKLYSWIRL]
+Name = Sparkly Swirl
+Type = FAIRY
+Category = Special
+Power = 120
+Accuracy = 85
+TotalPP = 5
+Target = NearOther
+FunctionCode = ConfuseTarget # CureUserPartyStatus
+EffectChance = 5
+Description = The user attacks the target with a sparkly whirlwind. May also confuse the target.
+#-------------------------------
+[VEEVEEVOLLEY]
+Name = Veevee Volly
+Type = NORMAL
+Category = Physical
+Power = 1
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithUserHappiness
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A strong friendship powers this attack. To max out Happiness, use lots of Tamato Berries. 
+#-------------------------------
+[PIKAPAPOW]
+Name = Pika Papow
+Type = ELECTRIC
+Category = Physical
+Power = 1
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithUserHappiness
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A strong friendship powers this attack. To max out Happiness, use lots of Tamato Berries. 
+#-------------------------------

@@ -1,0 +1,81 @@
+#===============================================================================
+# Grounds the target while it remains active. Hits some semi-invulnerable
+# targets. (Smack Down, Thousand Arrows)
+#===============================================================================
+class Battle::Move::HitsTargetInSkyGroundsTarget < Battle::Move
+  def hitsFlyingTargets?; return true; end
+
+  def pbCalcTypeModSingle(moveType, defType, user, target)
+    return Effectiveness::NORMAL_EFFECTIVE_MULTIPLIER if moveType == :GROUND && defType == :FLYING
+    return super
+  end
+
+  def pbEffectAfterAllHits(user, target)
+    return if target.fainted?
+    return if target.damageState.unaffected || target.damageState.substitute
+    return if target.inTwoTurnAttack?("TwoTurnAttackInvulnerableInSkyTargetCannotAct") ||
+              target.effects[PBEffects::SkyDrop] >= 0   # Sky Drop
+    return if !target.airborne? && !target.inTwoTurnAttack?("TwoTurnAttackInvulnerableInSky",
+                                                            "TwoTurnAttackInvulnerableInSkyParalyzeTarget")
+    target.effects[PBEffects::SmackDown] = true
+    if target.inTwoTurnAttack?("TwoTurnAttackInvulnerableInSky",
+                               "TwoTurnAttackInvulnerableInSkyParalyzeTarget")   # NOTE: Not Sky Drop.
+      target.effects[PBEffects::TwoTurnAttack] = nil
+      @battle.pbClearChoice(target.index) if !target.movedThisRound?
+    end
+    target.effects[PBEffects::MagnetRise]  = 0
+    target.effects[PBEffects::Telekinesis] = 0
+    @battle.pbDisplay(_INTL("{1} fell straight down!", target.pbThis))
+  end
+end
+
+Super Yellow 
+
+MoveEffects_MultiHit
+#===============================================================================
+# Hits twice. Hits Sky Target and Grounds them (Bonemerang)
+#===============================================================================
+class Battle::Move::HitTwoTimesHitsTargetInSkyGroundsTarget < Battle::Move
+  def multiHitMove?;            return true; end
+  def pbNumHits(user, targets); return 2;    end
+  def hitsFlyingTargets?; return true; end
+
+  def pbCalcTypeModSingle(moveType, defType, user, target)
+    return Effectiveness::NORMAL_EFFECTIVE_MULTIPLIER if moveType == :GROUND && defType == :FLYING
+    return super
+  end
+
+  def pbEffectAfterAllHits(user, target)
+    return if target.fainted?
+    return if target.damageState.unaffected || target.damageState.substitute
+    return if target.inTwoTurnAttack?("TwoTurnAttackInvulnerableInSkyTargetCannotAct") ||
+              target.effects[PBEffects::SkyDrop] >= 0   # Sky Drop
+    return if !target.airborne? && !target.inTwoTurnAttack?("TwoTurnAttackInvulnerableInSky",
+                                                            "TwoTurnAttackInvulnerableInSkyParalyzeTarget")
+    target.effects[PBEffects::SmackDown] = true
+    if target.inTwoTurnAttack?("TwoTurnAttackInvulnerableInSky",
+                               "TwoTurnAttackInvulnerableInSkyParalyzeTarget")   # NOTE: Not Sky Drop.
+      target.effects[PBEffects::TwoTurnAttack] = nil
+      @battle.pbClearChoice(target.index) if !target.movedThisRound?
+    end
+    target.effects[PBEffects::MagnetRise]  = 0
+    target.effects[PBEffects::Telekinesis] = 0
+    @battle.pbDisplay(_INTL("{1} fell straight down!", target.pbThis))
+  end
+end
+
+Bonemerang PBS (moves.txt)
+
+#-------------------------------
+[BONEMERANG]
+Name = Bonemerang
+Type = GROUND
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoTimesHitsTargetInSkyGroundsTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
+#-------------------------------

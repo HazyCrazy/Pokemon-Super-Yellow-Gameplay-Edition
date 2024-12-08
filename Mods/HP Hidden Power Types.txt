@@ -1,0 +1,449 @@
+MoveEffects_MoveAttributes
+
+#===============================================================================
+# This move is physical if user's Attack is higher than its Special Attack 
+# (after applying stat stages), and special otherwise (HP Hidden Power)
+#===============================================================================
+class Battle::Move::CategoryDependsOnHigherDamage < Battle::Move
+  def initialize(battle, move)
+    super
+    @calcCategory = 1
+  end
+
+  def physicalMove?(thisType = nil); return (@calcCategory == 0); end
+  def specialMove?(thisType = nil);  return (@calcCategory == 1); end
+
+  def pbOnStartUse(user, targets)
+    # Calculate user's effective attacking value
+    max_stage = Battle::Battler::STAT_STAGE_MAXIMUM
+    stageMul = Battle::Battler::STAT_STAGE_MULTIPLIERS
+    stageDiv = Battle::Battler::STAT_STAGE_DIVISORS
+    atk        = user.attack
+    atkStage   = user.stages[:ATTACK] + max_stage
+    realAtk    = (atk.to_f * stageMul[atkStage] / stageDiv[atkStage]).floor
+    spAtk      = user.spatk
+    spAtkStage = user.stages[:SPECIAL_ATTACK] + max_stage
+    realSpAtk  = (spAtk.to_f * stageMul[spAtkStage] / stageDiv[spAtkStage]).floor
+    # Determine move's category
+    @calcCategory = (realAtk > realSpAtk) ? 0 : 1
+  end
+end
+
+moves_IHPT
+
+#-------------------------------
+[TERANORMAL]
+Name = HP Normal 
+Type = NORMAL 
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAFIRE]
+Name = HP Fire 
+Type = FIRE 
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAFIGHTING]
+Name = HP Fighting 
+Type = FIGHTING
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAWATER]
+Name = HP Water 
+Type = WATER
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAFLYING]
+Name = HP Flying 
+Type = FLYING
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAGRASS]
+Name = HP Grass 
+Type = GRASS
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAPOISON]
+Name = HP Poison 
+Type = POISON
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAELECTRIC]
+Name = HP Electric 
+Type = ELECTRIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERANGROUND]
+Name = HP Ground 
+Type = GROUND
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAPSYCHIC]
+Name = HP Psychic 
+Type = PSYCHIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAROCK]
+Name = HP Rock 
+Type = ROCK
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAICE]
+Name = HP Ice 
+Type = ICE 
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERABUG]
+Name = HP Bug 
+Type = BUG 
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERADRAGON]
+Name = HP Dragon 
+Type = DRAGON
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAGHOST]
+Name = HP Ghost 
+Type = GHOST
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERADARK]
+Name = HP Dark 
+Type = DARK
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERASTEEL]
+Name = HP Steel 
+Type = STEEL
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAFAIRY]
+Name = HP Fairy 
+Type = FAIRY
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+
+Near Universial TMs
+
+Script.rb
+
+NEAR_UNIVERSAL_TUTOR_MOVES = [
+  :TERABLAST,:ATTRACT,:BIDE,:CAPTIVATE,:CELEBRATE,:CHARM,:CONFIDE,:CURSE,:DETECT,:WISH,:EGGBOMB,
+  :ENDURE,:FALSESWIPE,:FACADE,:FLATTER,:FLING,:FRUSTRATION,:HEADBUTT,:HIDDENFORCE,:HIDDENPOWER,
+  :HOLDBACK,:HOLDHANDS,:METRONOME,:NATURALGIFT,:NATUREPOWER,:PLAYNICE,:POWERSHIFT,:POWERSPLIT,
+  :POWERSWAP,:POWERTRICK,:FINALGAMBIT,:PROTECT,:REFLECTTYPE,:REST,:RETURN,:SECRETPOWER,:SLACKOFF,
+  :TOXIC,:LUCKYCHANT,:SPLASH,:SUBSTITUTE,:SWAGGER,:SYNCHRONOISE,:TERRAINPULSE,:WEATHERBALL,:WORKUP,
+  :COURTCHANGE,:BESTOW,:COMEUPPANCE,:HAZE,:TERANORMAL,:TERAFIRE,:TERAFIGHTING,:TERAWATER,
+  :TERAFLYING,:TERAGRASS,:TERAPOISON,:TERAELECTRIC,:TERANGROUND,:TERAPSYCHIC,:TERAROCK,:TERAICE,
+  :TERABUG,:TERADRAGON,:TERAGHOST,:TERADARK,:TERASTEEL,:TERAFAIRY
+  
+item_IHPT.txt
+
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[HPTM01]
+Name = HP Normal 
+NamePlural = HP Normals
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERANORMAL
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM02]
+Name = HP Fire
+NamePlural = HP Fires
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAFIRE
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM03]
+Name = HP Fighting 
+NamePlural = HP Fightings
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAFIGHTING
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM04]
+Name = HP Water
+NamePlural = HP Waters
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAWATER
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM05]
+Name = HP Flying
+NamePlural = HP Flyings
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAFLYING
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM06]
+Name = HP Grass 
+NamePlural = HP Grasss
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAGRASS
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM07]
+Name = HP Poison
+NamePlural = HP Poisons
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAPOISON
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM08]
+Name = HP Electric
+NamePlural = HP Electrics
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAELECTRIC
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM09]
+Name = HP Ground
+NamePlural = HP Grounds
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERANGROUND
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM10]
+Name = HP Psychic
+NamePlural = HP Psychics
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAPSYCHIC
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM11]
+Name = HP Rock
+NamePlural = HP Rocks
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAROCK
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM12]
+Name = HP Ice
+NamePlural = HP Ices
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAICE
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM13]
+Name = HP Bug
+NamePlural = HP Bugs
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERABUG
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM14]
+Name = HP Dragon
+NamePlural = HP Dragons
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERADRAGON
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM15]
+Name = HP Ghost
+NamePlural = HP Ghosts
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAGHOST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM16]
+Name = HP Dark
+NamePlural = HP Darkss
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERADARK
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM17]
+Name = HP Steel
+NamePlural = HP Steels
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERASTEEL
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[HPTM18]
+Name = HP Fairy
+NamePlural = Hp Fairies
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAFAIRY
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------

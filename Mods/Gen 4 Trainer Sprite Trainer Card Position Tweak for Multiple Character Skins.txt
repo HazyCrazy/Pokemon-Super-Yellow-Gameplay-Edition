@@ -1,0 +1,9 @@
+UI_TrainerCard
+
+Line 31
+
+Vanilla
+@sprites["trainer"].y -= (@sprites["trainer"].bitmap.height - 128)
+
+Tweaked
+@sprites["trainer"].y -= (@sprites["trainer"].bitmap.height - 160)

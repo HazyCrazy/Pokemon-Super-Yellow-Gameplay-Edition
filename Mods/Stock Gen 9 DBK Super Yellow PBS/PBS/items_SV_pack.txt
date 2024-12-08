@@ -1,0 +1,75 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[AUTOWINPOLICY]
+Name = Auto Win Policy
+NamePlural = Auto Win Policies
+Pocket = 1
+Price = 0
+BattleUse = Direct
+Flags = KeyItem
+Description = Use this to win instantly. Tell Radical Red's Grassy Glide Kartana to go fuck itself!    
+#-------------------------------
+[XMAX]
+Name = X Max 
+NamePlural = X Maxs
+Pocket = 1
+Price = 0
+BattleUse = OnBattler 
+Flags = KeyItem
+Description = It raises critial hit rate and all stats of a Pokémon to max. Wears off if the Pokémon is withdrawn.
+#-------------------------------
+[EXPPRECISION]
+Name = Exp. Precision
+NamePlural = Exp. Precisions
+Pocket = 2
+Price = 1
+FieldUse = OnPokemon
+Flags = Fling_30 
+Description = A candy packed with precise energy. A Pokémon's Exp. Points are raised to just before the level is raised.
+#-------------------------------
+[DOOMCANDY]
+Name = Doom Candy
+NamePlural = Doom Candies
+Pocket = 1
+Price = 1
+SellPrice = 1
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A candy that is packed with doom. It lowers the level of a single Pokémon by one.
+#-------------------------------
+[SPARKLINGVIAL]
+Name = Sparkling Vial
+NamePlural = Sparkling Vials
+Pocket = 6
+Price = 2000
+SellPrice = 1000
+FieldUse = OnPokemon
+Description = A vial of sparkling liquid that switches between a Pokémon's normal and shiny colors.
+#-------------------------------
+[SUPERVIAL]
+Name = Super Vial
+NamePlural = Super Vials
+Pocket = 6
+Price = 2000
+SellPrice = 1000
+FieldUse = OnPokemon
+Description = A vial of sparkling liquid that switches between a Pokémon's normal and super shiny colors.
+#-------------------------------
+[VILEBERRY]
+Name = Vile Berry
+NamePlural = Vile Berries
+Pocket = 5
+Price = 40
+FieldUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_POISON_150
+Description = Using it on a Pokémon lowers its happiness. Low friendship powers up the Dark type move Frustration.
+#-------------------------------
+[DYNAMAXINHIBITOR]
+Name = Dynamax Inhibitor
+NamePlural = Dynamax Inhibitors
+Pocket = 6
+Price = 1000
+SellPrice = 500
+FieldUse = OnPokemon
+Description = Toggles a Pokémon's capability to Dynamax in areas with Teras, Megas, Z-Moves and Dynamax.
+#-------------------------------

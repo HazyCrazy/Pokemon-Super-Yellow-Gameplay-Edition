@@ -1,0 +1,312 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[UTM001]
+Name = Tera Blast
+NamePlural = Tera Blasts
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = UTM001s
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = :TERABLAST
+Flags = Fling_100
+Description = This Special Technical Record can teach any Pokemon the move it's data contains.
+#-------------------------------

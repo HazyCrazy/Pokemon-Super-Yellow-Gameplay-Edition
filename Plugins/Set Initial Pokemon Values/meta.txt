@@ -1,0 +1,14 @@
+﻿Name       = Set Initial Pokemon Values
+Version    = 1.0.1
+Essentials = 20.1
+Optional   = Independent Hidden Power Type,1.0
+Website    = https://eeveeexpo.com/resources/1236/
+Credits    = DemICE
+#====================================================================
+# Change log
+#====================================================================
+# 1.0.1
+# - Fixed the plugin crashing in safari zone
+#
+# 1.0.0:
+# - Plugin Creation

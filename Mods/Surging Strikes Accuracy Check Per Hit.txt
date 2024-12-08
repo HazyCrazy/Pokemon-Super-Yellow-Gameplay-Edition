@@ -1,0 +1,85 @@
+Vanilla 
+
+MoveEffects_MultiHit
+
+Line 98
+
+#===============================================================================
+# Hits 3 times. Power is multiplied by the hit number. (Triple Kick)
+# An accuracy check is performed for each hit.
+#===============================================================================
+class Battle::Move::HitThreeTimesPowersUpWithEachHit < Battle::Move
+  def multiHitMove?;            return true; end
+  def pbNumHits(user, targets); return 3;    end
+
+  def successCheckPerHit?
+    return @accCheckPerHit
+  end
+
+  def pbOnStartUse(user, targets)
+    @calcBaseDmg = 0
+    @accCheckPerHit = !user.hasActiveAbility?(:SKILLLINK)
+  end
+
+  def pbBaseDamage(baseDmg, user, target)
+    @calcBaseDmg += baseDmg
+    return @calcBaseDmg
+  end
+end
+
+Line 120
+
+#===============================================================================
+# Hits 3 times in a row. If each hit could be a critical hit, it will definitely
+# be a critical hit. (Surging Strikes)
+#===============================================================================
+class Battle::Move::HitThreeTimesAlwaysCriticalHit < Battle::Move
+  def multiHitMove?;                   return true; end
+  def pbNumHits(user, targets);        return 3;    end
+  def pbCritialOverride(user, target); return 1;    end
+end
+
+Super Yellow 
+
+The move paired with Unseen Fist is stupid broken, so it now will check if the move can connect per hit.
+
+#===============================================================================
+# Hits 3 times in a row. If each hit could be a critical hit, it will definitely
+# be a critical hit.
+# An accuracy check is performed for each hit.(Surging Strikes)
+#===============================================================================
+class Battle::Move::HitThreeTimesAlwaysCriticalHitPowersUpWithEachHit < Battle::Move
+  def multiHitMove?;                   return true; end
+  def pbNumHits(user, targets);        return 3;    end
+  def pbCritialOverride(user, target); return 1;    end
+   
+  def successCheckPerHit?
+    return @accCheckPerHit
+  end
+
+  def pbOnStartUse(user, targets)
+    @calcBaseDmg = 0
+    @accCheckPerHit = !user.hasActiveAbility?(:SKILLLINK)
+  end
+
+  def pbBaseDamage(baseDmg, user, target)
+    @calcBaseDmg += baseDmg
+    return @calcBaseDmg
+  end  
+end
+
+moves.txt 
+
+#-------------------------------
+[SURGINGSTRIKES]
+Name = Surging Strikes
+Type = WATER
+Category = Physical
+Power = 25
+Accuracy = 90
+TotalPP = 5
+Target = NearOther
+FunctionCode = HitThreeTimesAlwaysCriticalHitPowersUpWithEachHit
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome,Punching
+Description = Hits three times in a row with mastery of the Water style. This attack always deals critical hits.
+#-------------------------------

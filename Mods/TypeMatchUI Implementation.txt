@@ -1,0 +1,68 @@
+
+
+
+########################################
+##									  ##
+##    TYPE MATCH UI IMPLEMENTATION    ##
+##                                    ##
+########################################
+
+
+##################
+# Call Functions #
+##################
+
+	# There are two methods to call for two types of Type Match Screens.
+	#
+	#	pbTypeMatchUI
+	#		- This method calls the normal type screen, showing all types and their Weaknesses, Resistances, and Immunities.
+	#		- Changes in the PBS file will automatically update within this UI.
+	#		
+	#	pbSpeciesTypeMatchUI(custom_species)
+	#		- This method will call based on a particular species given.
+	#		- The argument MUST be in the form of an array, even if there is only one pokemon.
+	#			EX: [:BULBASAUR,:PIKACHU,:CHARMANDER] or [:CHARIZARD]
+	#		- If no argument is given, it will provide all species in the current regional dex.
+	#		- If there is no regional dex available, it will default to the National Dex.
+			
+#########################
+# Battle Implementation #
+#########################
+
+	# If you want to implement this script into a battle, follow the steps below. The script will only show the active pokemon within the battle.	
+	# in Battle_Scene line 111, you will find the pbFrameUpdate method. Replace it with the method below:
+	
+	def pbFrameUpdate(cw = nil)
+	  cw&.update
+	  @battle.battlers.each_with_index do |b, i|
+		next if !b
+		@sprites["dataBox_#{i}"]&.update
+		@sprites["pokemon_#{i}"]&.update
+		@sprites["shadow_#{i}"]&.update
+	  end
+	    #This triggers the battle scene. Change :T to whatever button you want.
+	  if Input.triggerex?(:T)
+		custom_species = @battle.battlers.map { |battler| battler.species }.uniq
+		pbSpeciesTypeMatchUI(custom_species)
+	  end
+	end
+	
+#############################
+# Pause Menu Implementation #
+#############################
+
+	# Putting in a new pause menu is very simple. Go to the UI_PauseMenu script within Essentials.
+	# Find line 274 with MenuHandlers.add(:pause_menu, :options)
+	# Put this script after that and before the debug.
+	
+	MenuHandlers.add(:pause_menu, :type, {
+	  "name"      => _INTL("Type Lookup"),
+	  "icon_name" => "Type",
+	  "order"     => 75,
+	  "effect"    => proc { |menu|
+		pbFadeOutIn {
+		  pbTypeMatchUI
+		}
+		next false
+	  }
+	})

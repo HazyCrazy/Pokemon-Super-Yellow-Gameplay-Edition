@@ -1,0 +1,106 @@
+MoveEffects_MultiHit
+
+Vanilla
+
+#===============================================================================
+# Two turn attack. Skips first turn, and increases the user's Special Attack,
+# Special Defense and Speed by 2 stages each in the second turn. (Geomancy)
+#===============================================================================
+class Battle::Move::TwoTurnAttackRaiseUserSpAtkSpDefSpd2 < Battle::Move::TwoTurnMove
+  attr_reader :statUp
+
+  def initialize(battle, move)
+    super
+    @statUp = [:SPECIAL_ATTACK, 2, :SPECIAL_DEFENSE, 2, :SPEED, 2]
+  end
+
+  def pbMoveFailed?(user, targets)
+    return false if user.effects[PBEffects::TwoTurnAttack]   # Charging turn
+    failed = true
+    (@statUp.length / 2).times do |i|
+      next if !user.pbCanRaiseStatStage?(@statUp[i * 2], user, self)
+      failed = false
+      break
+    end
+    if failed
+      @battle.pbDisplay(_INTL("{1}'s stats won't go any higher!", user.pbThis))
+      return true
+    end
+    return false
+  end
+
+  def pbChargingTurnMessage(user, targets)
+    @battle.pbDisplay(_INTL("{1} is absorbing power!", user.pbThis))
+  end
+
+  def pbEffectGeneral(user)
+    return if !@damagingTurn
+    showAnim = true
+    (@statUp.length / 2).times do |i|
+      next if !user.pbCanRaiseStatStage?(@statUp[i * 2], user, self)
+      if user.pbRaiseStatStage(@statUp[i * 2], @statUp[(i * 2) + 1], user, showAnim)
+        showAnim = false
+      end
+    end
+  end
+end
+
+Super Yellow
+
+#===============================================================================
+# Two turn attack. Skips first turn, and increases the user's Defense,
+# Special Defense and Speed by 3 stages each in the second turn. (Geomancy)
+#===============================================================================
+class Battle::Move::TwoTurnAttackRaiseUserSpAtkSpDefSpd2 < Battle::Move::TwoTurnMove
+  attr_reader :statUp
+
+  def initialize(battle, move)
+    super
+    @statUp = [:DEFENSE, 3, :SPECIAL_DEFENSE, 3, :SPEED, 3]
+  end
+
+  def pbMoveFailed?(user, targets)
+    return false if user.effects[PBEffects::TwoTurnAttack]   # Charging turn
+    failed = true
+    (@statUp.length / 2).times do |i|
+      next if !user.pbCanRaiseStatStage?(@statUp[i * 2], user, self)
+      failed = false
+      break
+    end
+    if failed
+      @battle.pbDisplay(_INTL("{1}'s stats won't go any higher!", user.pbThis))
+      return true
+    end
+    return false
+  end
+
+  def pbChargingTurnMessage(user, targets)
+    @battle.pbDisplay(_INTL("{1} is absorbing power!", user.pbThis))
+  end
+
+  def pbEffectGeneral(user)
+    return if !@damagingTurn
+    showAnim = true
+    (@statUp.length / 2).times do |i|
+      next if !user.pbCanRaiseStatStage?(@statUp[i * 2], user, self)
+      if user.pbRaiseStatStage(@statUp[i * 2], @statUp[(i * 2) + 1], user, showAnim)
+        showAnim = false
+      end
+    end
+  end
+end
+
+Geomancy PBS (moves.txt)
+
+#-------------------------------
+[GEOMANCY]
+Name = Geomancy
+Type = FAIRY
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+FunctionCode = TwoTurnAttackRaiseUserSpAtkSpDefSpd2
+Description = The user absorbs energy and sharply raises its Sp. Atk, Sp. Def, and Speed stats on the next turn.
+Flags = ZPower_AllStats_1
+#-------------------------------

@@ -1,0 +1,39 @@
+Move_Usage
+
+Line 170 to 175
+
+Vanilla
+
+# Ice Face will take the damage
+    if !@battle.moldBreaker && target.isSpecies?(:EISCUE) &&
+       target.form == 0 && target.ability == :ICEFACE && physicalMove?
+      target.damageState.iceFace = true
+      return
+    end
+	
+Super Yellow 
+
+    # Ice Face will take the damage, can now take any hit
+    if !@battle.moldBreaker && target.isSpecies?(:EISCUE) &&
+       target.form == 0 && target.ability == :ICEFACE
+      target.damageState.iceFace = true
+      return
+    end
+	
+abilities.txt
+
+Vanilla 
+
+#-------------------------------
+[ICEFACE]
+Name = Ice Face
+Description = Blocks a physical hit, but the ice head breaks.
+#-------------------------------
+
+Super Yellow 
+
+#-------------------------------
+[ICEFACE]
+Name = Ice Face
+Description = Blocks any hit, but the ice head breaks.
+#-------------------------------

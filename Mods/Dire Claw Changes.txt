@@ -1,0 +1,33 @@
+#===============================================================================
+# Dire Claw
+#===============================================================================
+# Vanilla 
+# May paralyze, poison or put the target to sleep.
+#-------------------------------------------------------------------------------
+class Battle::Move::PoisonParalyzeOrSleepTarget < Battle::Move
+  def pbAdditionalEffect(user, target)
+    return if target.damageState.substitute
+    case @battle.pbRandom(3)
+    when 0 then target.pbSleep          if target.pbCanSleep?(user, false, self)
+    when 1 then target.pbPoison(user)   if target.pbCanPoison?(user, false, self)
+    when 2 then target.pbParalyze(user) if target.pbCanParalyze?(user, false, self)
+    end
+  end
+end
+
+#===============================================================================
+# Dire Claw
+#===============================================================================
+# Super Yellow 
+# May paralyze, Burn or Frostbite the target.
+#-------------------------------------------------------------------------------
+class Battle::Move::PoisonParalyzeOrSleepTarget < Battle::Move
+  def pbAdditionalEffect(user, target)
+    return if target.damageState.substitute
+    case @battle.pbRandom(3)
+    when 0 then target.pbParalyze(user) if target.pbCanParalyze?(user, false, self)
+	when 1 then target.pbBurn(user) if target.pbCanBurn?(user, false, self)
+	when 2 then target.pbFreeze(user) if target.pbCanFreeze(user, false, self)
+    end
+  end
+end

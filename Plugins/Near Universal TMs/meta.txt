@@ -1,0 +1,4 @@
+Name = Near Universal Tms
+Version = 1.0
+Link = https://www.pokecommunity.com/threads/v19-near-universal-tms.492298/
+Credits = FL

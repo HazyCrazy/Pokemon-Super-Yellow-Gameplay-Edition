@@ -1,0 +1,17 @@
+Battle_AbilityEffects
+
+Drought Ability
+Battle::AbilityEffects::OnSwitchIn.add(:DROUGHT,
+  proc { |ability, battler, battle, switch_in|
+    battle.pbStartWeatherAbility(:Sun, battler)
+  }
+)
+
+Flower Gift ability (Vanila Effect, but now kicks Harsh Sun in on Switch-in. Competitive Pokemon is unforgiving to any Weather dependent Pokemon that does not set Weather on Switch-in)
+
+Battle::AbilityEffects::OnSwitchIn.add(:FLOWERGIFT,
+  proc { |ability, battler, battle, switch_in|
+    battle.pbStartWeatherAbility(:Sun, battler)
+  }
+)
+

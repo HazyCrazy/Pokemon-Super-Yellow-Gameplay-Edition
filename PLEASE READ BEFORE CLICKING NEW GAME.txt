@@ -1,0 +1,275 @@
+Pokemon Super Yellow Gameplay Edition 2.0
+is a fan game made by a high level competitive Pokemon player,
+for high level competitive Pokemon players.
+This game assumes you already know the whole picture of playing Pokemon at the highest level.
+
+Super Yellow is not designed to be Nuzlockable,
+and the Randomizer feature was added in at the last minute,
+after I decided I should add it in for those that like that feature.
+I myself don't like Nuzlockes and Randomizers.
+The randomizer does not randomizer the player's Pokemon.
+
+When you click New Game, this is what you have:
+
+One of every Pokemon Species, including Regional Forms and diffcult to get Pokemon
+
+All generated Pokemon will have 31 IV's, 100% of the time. This inclues the player's the wild's and the opponent's Pokemon.
+
+Every Pokemon the player gets from clicking New Game, have preconfigured Competitive Movesets. They are still required to be fully trained
+ 
+Every Item that exists in this build of Pokemon Essentials
+ 
+An Individual Pokemon's movepool in it's enterity can be relearned via going to the Party Screen (Level Up, TM, Tutor, Egg and Event Moves)
+
+Mega Evolution, Z-Moves, Dynamax, Teras, Dynamax Inhibitors, and every method to toggle between the forms and evolutions of specfic Pokemon  
+
+EV's can be assigned via the Summary Screen, IV's can be changed via the Party Screen, and Natures can be changed via Nature Mints
+
+The Pokedex Data Page, that acts as an in game wiki that can be kept up to date 
+
+All Trainers and the player have Lvl.100 Pokemon, no grinding required
+
+Every method to fully max out and optimise a Pokemon Team can be the done the second you click New Game
+
+You cannot just choose whatever Pokemon you want and just waltz into a trainer battle.
+You have to look at the whole picture of every aspect of how to use a Pokemon in battle.
+This means a Pokemon is holding an item, it's IV's and EV's are configured, 
+it's movepool serves a role on the team, it's Tera Type is configured, it's Dynamax is maxed out or inhibited
+and every other Pokemon on the team can cover for each other's weaknesses or vulnerabilities.
+You will almost always lose if you do not bother using the tools the game unconditionally gives you.
+
+How to Fully Train a Pokemon Team 
+
+After choosing a Team Composition of your liking, these are the steps:
+
+1. EV/IV Values
+
+1a: 
+Press Z and choose Pokemon. Choose a Pokemon, Choose Change IVs. 
+Outside of hyper specfic strategies, Attack can be lowered to reduce Foul Play damage, 
+and Speed can be adjusted for Speed Tiers, or set to 0 for Trick Room.
+
+1b: 
+Press Z and choose Pokemon. Choose a Pokemon, Choose Summary. 
+Go to the Skills page, press Space to assign EVs.
+
+2. Nature Effect (Quick and Artifical)
+
+2a: 
+Access the Pokemon Storage System, the computer in front of the Pokemon Center Building. 
+Choose Pokemon Nature Changer. 
+
+3. Nature Effect (Manual and Natural)
+
+3a: 
+Press Z and choose Bag. Go to the Berry Icon for Natures/Abilities. 
+Mints change a Stat Modifier, but don't alter a Pokemon's Nature directly.
+
+4. Assigning and Tweaking Abilities
+
+4a: 
+Press Z and choose Bag. Go to the Berry Icon for Natures/Abilities. 
+Select the Ability Capsule and choose a Pokemon. 
+Nearly all Pokemon can have 1 out of 4 abilities.   
+
+5. Changing and Tweaking Moves 
+
+5a: 
+Press Z and choose Pokemon. Choose a Pokemon. Choose Egg/TM/Tutor/Moves. 
+To remove Hidden Machine/Field Moves, 
+go to the Supply Clerk, on the right of the Pokemon Storage System.
+
+5b:
+To teach a Universal Move to a Pokemon, 
+Press Z and choose Bag. Go to the Disc Icon for TMs/HMs/UTMs.
+Go to the bottom and choose any Universal Move.
+
+6. Giving a Pokemon a Held Item 
+
+6a: 
+Press Z and choose Pokemon. Choose a Pokemon. Choose Item, choose Give.
+Most of the time, these item pockets are where you want to give a Pokemon an item:
+
+Natures/Abilities for Berries
+Mega/Dyna/Tera for Specfic Pokemon 
+Battle Items for specialized/edge case strategies
+Best Items for broadly useful or simply the best strategies 
+
+7. Full Happniess or Empty Happniess
+
+7a: 
+Press Z and choose Bag. Go to the Berry Icon for Natures/Abilities.
+
+7b: 
+Use the Tamato Berry to max out happniess, 
+to max out the Fairy Type move Return. The move Egg Bomb, a Universal Move, replaces the role Return/Frustration served in the offical games. 
+It takes roughly 30 to 40 Friendship Berries to max out happniess.
+To regenrate all Items, go to the Supply Clerk, on the right of the Pokemon Storage System.
+
+7c: 
+Use the Vile Berry to min out happniess,
+to max out the Dark Type move Frustration. The move Egg Bomb, a Universal Move, replaces the role Return/Frustration served in the offical games. 
+It takes roughly 20 to 30 Anti Friendship Berries to min out happniess.
+To regenrate all Items, go to the Supply Clerk, on the right of the Pokemon Storage System.
+
+8. Hidden Power Type 
+
+8a:  
+Press Z and choose Bag. Go to the Mega Stone Icon (The Bacon shape) for Mega/Dyna/Tera.
+Scroll to the bottom and choose the Hidden Orb Item. 
+Hidden Power Type affects the moves Hidden Power and Hidden Force.
+Hidden Power Types in Super Yellow can be Fairy and Stellar, on top of every other Type. 
+
+9. Toggling Normal Colors/Shiny Colors/Super Shiny Colors 
+
+9a:
+Press Z and choose Bag. Go to the Mega Stone Icon (The Bacon shape) for Mega/Dyna/Tera. 
+Scroll to the bottom and choose the Sparkling/Super Vial Item.
+
+10. Changing a Pokemon's Poke Ball 
+
+10a:
+Press Z and choose Pokemon. Choose a Pokemon, Choose Change Poke Ball. 
+
+11. Maxing and Inhibting Dynamax 
+
+11a:
+Press Z and choose Bag. Go to the Mega Stone Icon (The Bacon shape) for Mega/Dyna/Tera. 
+Scroll to the bottom and choose the Dynamax Candy XL/Max Soup/Dynamax Inhibitor Item.
+Dynamx Candy Xl sets a Dynamax Level to the max of Lvl.10, 
+Max Soup Toggles the Form of a Gigantamax Pokemon, and 
+Dynamax Inhibitor toggles if a Pokemon that consumes the item can Dynamax or not.
+In battle, there are suitations where you need to Tera straight away.
+With no inhibitor, one Pokemon on the player and opponent's team has to Dynamax, before they can tera.
+Mega Stone holding and Z-Crystal holding Pokemon can't Dynamax or Tera.       
+
+12. Assigning a Tera Type 
+
+12a:
+Press Z and choose Bag. Go to the Mega Stone Icon (The Bacon shape) for Mega/Dyna/Tera. 
+Scroll to the bottom and choose the Master Tera Jewel.
+In Super Yellow, only the Pokemon Type:Null can be the ??? Type. A type that has existed since Gen 2, but never existed to players that don't know about Pokemon's Mechanics.
+
+13. Where are the Z-Crystals?
+
+13a:
+Press Z and choose Bag. Go to the Best Items Icon (The key shape) and move to the right. 
+Mega Stones for Mega Pokemon are as simple as giving a Mega Evolving Pokemon it's special Marble.
+
+14: Why does my Pokemon Storage have a full row of Dittos?
+
+14a:
+Those Ditto's are stand in's for people who enable Debug Mode and want to make a Mono Species Team.
+Refer to How to make Mono Species Pokemon Teams.txt for more information.
+
+15: How long does a team of 6 Pokemon in a team take?
+
+15a:
+If you know what you are doing, it takes less than 10 minutes to fully max out 6 Pokemon for a team.
+If you don't know what you are doing, or constantly tweaking and experimenting, an hour at worst?
+My test run of fully training the stock team you get wasn't efficent, and it still took me less than 10 minutes.
+
+16: Where do I go to know what all the moves in the game do?
+
+16a:
+Press Z and choose Pokedex. Go to Number 132, Ditto and choose the Data Page.
+Select the Moves Tab. Go to the TM/Tutor section.
+The following Pokemon all share the quality of learning every move in the game:
+
+132 Ditto
+150 Mewtwo 
+151 Mew 
+201 Unown
+235 Smeargle
+493 Arceus
+773 Silvally
+1024 Terapagos
+
+This is to allow the Data Page to act as an in game wiki that be kept up to date.
+
+Super Yellow uses the Enhanced Battle UI, part of the Deluxe Battle Kit.
+In Battle, Press the A key when a move choice is highlighted, for more exact details on a move.
+
+17: Where do I go to know what all the abilities in the game do?
+
+17a:
+The Pokedex Data Page sadly does not solve using it as an in-game wiki for abilities.
+You can see what abilites a Pokemon have, as well as other Pokemon that have that ability.
+But there sadly is not a dedicated area in the data page for just showing all the abilities in the game. 
+
+18: 300+ Pokemon Trainers!?
+
+18a:
+In Pokemon Super Yellow Gameplay Edition 2.0,
+there are a total of 365 Pokemon Trainers to battle.
+Each trainer has a full team of 6 Pokemon.
+And have dedicated Single and Double Battle teams.
+And the player has choose the following formats for these battles:
+
+Battle with no Items 
+Battle with Items 
+Inverse Battles
+Auto Battles
+
+6 * 365 = 2136 Single Battle Pokemon fully edited in trainers.txt to be competitive
+6 * 365 = 2136 Double Battle Pokemon fully edited in trainers.txt to be competitive
+
+Or 4272 Pokemon Team entries that had to be crafted, to make engaging and fun battles.
+This had to be done, because the player does not have to in pratice, bother with Debug Mode 
+to be in God Mode. 
+
+At one point, as I was finallizing the Battle Format Events setup for each trainer,
+I was working for 7 hours straight, it ended up being 12:30 am to 1:00 am by the time by body started giving out,
+and then it took 3 more hours the day after. Only to find out the entire time, I straight up forget to setup 7 Pokemon Trainers.
+That took more hours that I don't remember how long it took. 
+This was all in the span of 2 days. N from Gen 5 Black and White was the final Pokemon Trainer setup in trainers.txt.
+
+I wanted to start 2025 working on Falling Stones, an orginal video game project.
+So I had to grind out setting up these events, before the stress of Christmas, and getting the download links setup kicked in. 
+Super Yellow Gameplay Ediiton is complete with this release. 
+
+Remember. People don't care about what happened behind the scenes of development.
+They will not sugarcoat if they don't like your game.
+Your free to say if this game should delete itself, now!
+
+The distinct selling points of Super Yellow, compared to fan games such as Tectonic and Retired Champion:
+
+Normal Type attacks without STAB match your first type. Or NTAW STAB MYFT for short
+All Mainline Battle Gimmicks, From Gen 6 to Gen 9
+Nearly every Pokemon is obtainable and usuable in battle
+All Pokemon, Gen 1 to Gen 9 having a revamped Base Stat Total Power Curve of 500, 550 and 600, with some exceptions
+All Moves, Gen 1 to Gen 9 existing, and nearly every move's purpose in the metagame of Pokemon have been tweaked or revamped
+Nearly all Pokemon, Gen 1 to Gen 9 having Typing Changes
+Signficant Type Chart Changes
+The Source Project comes included in the Download Link/Github Download
+Easily Toggable Debug Mode for players/developers
+365 Pokemon Trainer Battles, for Single and Double Battle Metas
+Double Weak Type Matchups take Times 3 damage in Super Yellow 
+
+Super Yellow Gameplay Edition Future Update plans
+
+3.0
+
+The Field Effect System Update. The existance of a v21.1 version of Field Effects Essentials Project
+came into existance on the 20th November 2024, on Poke Community: https://www.pokecommunity.com/threads/emulated-rebornian-rejuvenian-field-effects-revamped-battle-tower-v2-1-0b-v21-1.532565/
+
+Super Yellow 2.0, going back to the drawing board after v1.0.1 of Super Yellow was released roughly on June 16, 2024,
+was too deep into development to start over, in order to get the Field Effect System working.
+
+3.0 of Super Yellow will start all over again, because of the complex nature of the Field Effect System.
+
+3.1
+
+The Shadow Pokemon Update. This update will implement what is needed for Shadow Pokemon to work for Super Yellow's design needs.
+
+3.2
+
+The Movepool Update. This update will revamp the level curve of all 1000+ Pokemon's movepools, to prepare for Super Yellow's Story Mode update.
+
+3.3
+
+The Abilities Update. This update will fully redux nearly every ability from the offical games.
+
+4.0
+
+The Story Mode/Multiplayer Update. This update will have a playable non linear open ended Pokemon Region. Kanto or orgial region will still be decided at this point.

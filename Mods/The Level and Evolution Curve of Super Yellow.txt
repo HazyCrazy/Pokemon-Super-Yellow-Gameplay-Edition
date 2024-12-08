@@ -1,0 +1,102 @@
+This is the global level up flow for all Pokemon:
+
+Stage 1 to Stage 3 Pokemon 
+
+Stage 1: Evolve at Level 30 
+Stage 2: Evolve at Level 50
+Stage 3: Fully Evolved
+
+Stage 1 to Stage 2 Pokemon 
+
+Stage 1: Evolve at Level 40
+Stage 2: Fully Evolved 
+
+All Pokemon with methods more complex than Level up 
+
+Evolution Stone 
+Learn a Specfic Move 
+
+Simply put, a big reason Pokemon suffers from people having to constantly Google Wikis
+comes down to how it invents highly specfic gimmicks for evolution, that are suspect to be throw away,
+for another cryptic gimmick. Because Super Yellow has globally buffed every Pokemon in the game,
+it is allowed to change the power curve of evolution. And it also means it can finally get rid of 
+the bloated and clunky gimmicks that do nothing but result in most people not bothring with most Pokemon,
+because it's not clear or too much of an arse ache to figure out how to evolve them.
+
+And while the Universial TM's plugin has done a great job of fixing the problem,
+of specfic Pokemon being held back, because they don't have a consistnet and good STAB move.
+Simply put, the top of the food chain nature of Pokemon's metagame means there is 900+ Pokemon,
+where all the typing, ability, Base Stat Total, Tutor, Egg and Level Up Move Pool tweaks won't amount to anything,
+if a Pokemon does not have the one move it needs to be great, even if the nature of it's typing and role isn't a good fit 
+for the Meta. 
+
+So it has to be done. I have to fix the gaps in move pools so many of the worst Pokemon have.
+And this work is also to put in place what needs to be done, if I ever end up making a Story Mode for Super Yellow. 
+Put for now, 2.0 and 300 Trainer Battles I have tested to be working as intended is the most important thing. 
+
+
+Level Up Movepool curve for
+
+3 Stage Evolution Pokemon 
+
+Level 1: 4 Basic Moves 
+
+Level 8:
+Level 11:
+Level 14:
+Level 17:
+Level 20:
+Level 22:
+Level 24:
+Level 26:
+Level 28:
+Level 30: When 3rd Stage Pokemon Evolve. After this point, 1st Stage Pokemon learn the movepools of their evolution lines much earier than when evolved or fully evolved 
+Level 32:
+Level 34:
+Level 36:
+Level 38:
+Level 40:
+Level 41:
+Level 42:
+Level 43:
+Level 44: 
+Level 45:
+Level 46:
+Level 47:
+Level 48:
+Level 49: 
+Level 50: When 3rd Stage Pokemon Fully Evolve. After this point, 1st Stage Pokemon learn the movepools of their evolution lines much later than when not fully evolved
+
+2 Stage Evolution Pokemon 
+
+Level 30: Evolution Move (1st Stage Pokemon)
+Level 34:
+Level 38:
+Level 40: Evolution Move (2nd Stage Pokemon)
+Level 42:
+Level 46: 
+Level 50: When 3rd Stage Pokemon Evolve
+Level 52:
+Level 54:
+Level 56: 
+Level 60: 
+
+1 Stage Pokemon/Fully Evolved Pokemon 
+
+Level 50: 
+Level 55:
+Level 60:
+Level 65:
+Level 70:
+Level 75:
+Level 80:
+Level 85:
+Level 90:
+Level 95:
+Level 100: 
+
+This is the general structure of Level Up Movepool curves. The actual moves learned are a case by case basis for each of the 1000+ Pokemon that exist, as of Gen 9.
+
+
+
+

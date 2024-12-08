@@ -1,0 +1,30 @@
+MoveEffects_BattlerStats
+
+Vanilla 
+
+#===============================================================================
+# Decreases the target's Defense by 1 stage.
+#===============================================================================
+class Battle::Move::LowerTargetDefense1 < Battle::Move::TargetStatDownMove
+  def initialize(battle, move)
+    super
+    @statDown = [:DEFENSE, 1]
+  end
+end
+
+Super Yellow 
+
+#===============================================================================
+# Decreases the target's Defense by 1 stage, remove Stealth Rock
+#===============================================================================
+class Battle::Move::LowerTargetDefense1 < Battle::Move::TargetStatDownMove
+  def initialize(battle, move)
+    super
+    @statDown = [:DEFENSE, 1]
+  end
+ 
+  if user.pbOwnSide.effects[PBEffects::StealthRock]
+   user.pbOwnSide.effects[PBEffects::StealthRock] = false
+   @battle.pbDisplay(_INTL("{1} blew away stealth rocks!", user.pbThis))
+  end 
+end

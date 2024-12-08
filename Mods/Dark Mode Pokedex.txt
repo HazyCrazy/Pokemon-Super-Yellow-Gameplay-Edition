@@ -1,0 +1,16 @@
+UI_Pokedex_Main
+
+Line 10-11 (The Right side that displays the Pokedex Entry of each registered Pokemon)
+
+# 248,248,248, 32,32,32 is White Text with Black Shadow. 
+# 88,88,80, 168, 184, 184 is Black Text with White Gray Shadow, Stock Colors
+self.baseColor   = Color.new(248, 248, 248)# Color.new(88, 88, 80)
+self.shadowColor = Color.new(32, 32, 32)# Color.new(168, 184, 184)
+
+Line 420-421 (The Left side that displays the Pokemon Sprite and how many are Obtained/Seen) 
+
+base   = Color.new(248, 248, 248)# Color.new(88, 88, 80)
+shadow = Color.new(32, 32, 32)# Color.new(168, 184, 184)
+
+Line 425 (A minor tweak so those who with zero knowledge of Essentials know the Search Funtion exsits)
+dexname = _INTL("Pokédex [Z] Search")

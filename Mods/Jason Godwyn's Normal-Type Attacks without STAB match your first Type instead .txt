@@ -1,0 +1,66 @@
+Script Editor
+Move_UsageCalculations
+
+#=============================================================================
+# Move's type calculation
+#=============================================================================
+  def pbBaseType(user)
+    ret = @type
+    if ret && user.abilityActive?
+      ret = Battle::AbilityEffects.triggerModifyMoveBaseType(user.ability, user, self, ret)
+    end
+    return ret
+  end
+
+  # Jason Godwyn's Type Calulation
+  def pbCalcType(user)
+    @powerBoost = false
+    type = @calcType
+    userTypes = user.pbTypes(true)
+    ret = pbBaseType(user)
+    if ret == :NORMAL && !user.pbHasType?(:NORMAL)
+    ret = userTypes[0]
+    end
+    if ret && GameData::Type.exists?(:ELECTRIC)
+      if @battle.field.effects[PBEffects::IonDeluge] && ret == :NORMAL
+        ret = :ELECTRIC
+        @powerBoost = false
+      end
+      if user.effects[PBEffects::Electrify]
+        ret = :ELECTRIC
+        @powerBoost = false
+      end
+    end
+    return ret
+  end
+  
+  # Base Essentials Type Calulation
+  # def pbCalcType(user)
+    # @powerBoost = false
+    # ret = pbBaseType(user)
+    # if ret && GameData::Type.exists?(:ELECTRIC)
+      # if @battle.field.effects[PBEffects::IonDeluge] && ret == :NORMAL
+        # ret = :ELECTRIC
+        # @powerBoost = false
+      # end
+      # if user.effects[PBEffects::Electrify]
+        # ret = :ELECTRIC
+        # @powerBoost = false
+      # end
+    # end
+    # return ret
+  # end
+  
+This mechanic is a very good double edged sword. But it still is a double edged sword.
+In simple terms, this change applies the effects of Hidden Power on a Pokemon's first type, for all Normal type moves.
+This means a Pikachu using Return, a Normal Type move, will become an Electric type move.
+This mechanic works with Tera, meaning a Tera Ice Pikachu using Return will change Return into an Ice type move.
+
+If you are not using Gen 9, replace STELLAR with NORMAL.
+
+If you choose to use this, it will be necessary to use Jason Godwyn's BST python script.
+This mechanic WILL cause havoc on the vanilla metagame balance of Pokemon.
+I myself made the decision to use this mechanic becuase it makes battles richer,
+allows tons of Pokemon to finally get a good STAB move, by simply switching around their primary and seconday types,
+without having to change movepools. And dispite it's drawbacks. It results in more that you have to think about in a battle. 
+

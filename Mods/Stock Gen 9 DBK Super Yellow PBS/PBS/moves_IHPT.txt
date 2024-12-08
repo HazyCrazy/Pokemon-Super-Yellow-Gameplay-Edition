@@ -1,0 +1,217 @@
+#-------------------------------
+[TERANORMAL]
+Name = HP Normal 
+Type = NORMAL 
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAFIRE]
+Name = HP Fire 
+Type = FIRE 
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAFIGHTING]
+Name = HP Fighting 
+Type = FIGHTING
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAWATER]
+Name = HP Water 
+Type = WATER
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAFLYING]
+Name = HP Flying 
+Type = FLYING
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAGRASS]
+Name = HP Grass 
+Type = GRASS
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAPOISON]
+Name = HP Poison 
+Type = POISON
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAELECTRIC]
+Name = HP Electric 
+Type = ELECTRIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAGROUND] 
+Name = HP Ground 
+Type = GROUND
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAPSYCHIC]
+Name = HP Psychic 
+Type = PSYCHIC
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAROCK]
+Name = HP Rock 
+Type = ROCK
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAICE]
+Name = HP Ice 
+Type = ICE 
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERABUG]
+Name = HP Bug 
+Type = BUG 
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERADRAGON]
+Name = HP Dragon 
+Type = DRAGON
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAGHOST]
+Name = HP Ghost 
+Type = GHOST
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERADARK]
+Name = HP Dark 
+Type = DARK
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERASTEEL]
+Name = HP Steel 
+Type = STEEL
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------
+[TERAFAIRY]
+Name = HP Fairy 
+Type = FAIRY
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 10
+Target = NearOther 
+FunctionCode = CategoryDependsOnHigherDamage
+Flags = CanProtect,CanMirrorMove
+Description = An attack that has become a single Type. Deals damage based on user's higher stat.
+#-------------------------------

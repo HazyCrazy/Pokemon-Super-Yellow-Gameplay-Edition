@@ -1,0 +1,55 @@
+Vanilla 
+
+#===============================================================================
+# Last Respects
+#===============================================================================
+# Power is increased by 50 for each time a teammate fainted this battle.
+#-------------------------------------------------------------------------------
+class Battle::Move::IncreasePowerEachFaintedAlly < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    numFainted = user.num_fainted_allies
+    return baseDmg if numFainted <= 0
+    baseDmg += 50 * numFainted
+    return baseDmg
+  end
+end
+
+#===============================================================================
+# Rage Fist
+#===============================================================================
+# Power is increased by 50 for each time the user has been hit this battle.
+#-------------------------------------------------------------------------------
+class Battle::Move::IncreasePowerEachTimeHit < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    bonus = 50 * user.num_times_hit
+    return [baseDmg + bonus, 350].min
+  end
+end
+
+Super Yellow
+
+#===============================================================================
+# Last Respects
+#===============================================================================
+# Power is increased by 30 for each time a teammate fainted this battle.
+#-------------------------------------------------------------------------------
+class Battle::Move::IncreasePowerEachFaintedAlly < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    numFainted = user.num_fainted_allies
+    return baseDmg if numFainted <= 0
+    baseDmg += 30 * numFainted
+    return baseDmg
+  end
+end
+
+#===============================================================================
+# Rage Fist
+#===============================================================================
+# Power is increased by 30 for each time the user has been hit this battle.
+#-------------------------------------------------------------------------------
+class Battle::Move::IncreasePowerEachTimeHit < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    bonus = 30 * user.num_times_hit
+    return [baseDmg + bonus, 250].min
+  end
+end

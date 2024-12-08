@@ -1,0 +1,58 @@
+MoveEffects_Items
+
+Vanilla
+
+#===============================================================================
+# Target drops its item. It regains the item at the end of the battle. (Knock Off)
+# If target has a losable item, damage is multiplied by 1.5.
+#===============================================================================
+class Battle::Move::RemoveTargetItem < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    if Settings::MECHANICS_GENERATION >= 6 &&
+       target.item && !target.unlosableItem?(target.item)
+      # NOTE: Damage is still boosted even if target has Sticky Hold or a
+      #       substitute.
+      baseDmg = (baseDmg * 1.5).round
+    end
+    return baseDmg
+  end
+
+  def pbEffectAfterAllHits(user, target)
+    return if user.wild?   # Wild Pokémon can't knock off
+    return if user.fainted?
+    return if target.damageState.unaffected || target.damageState.substitute
+    return if !target.item || target.unlosableItem?(target.item)
+    return if target.hasActiveAbility?(:STICKYHOLD) && !@battle.moldBreaker
+    itemName = target.itemName
+    target.pbRemoveItem(false)
+    @battle.pbDisplay(_INTL("{1} dropped its {2}!", target.pbThis, itemName))
+  end
+end
+
+Super Yellow 
+
+#===============================================================================
+# Target drops its item. It regains the item at the end of the battle. (Knock Off)
+#===============================================================================
+class Battle::Move::RemoveTargetItem < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    if Settings::MECHANICS_GENERATION >= 6 &&
+       target.item && !target.unlosableItem?(target.item)
+      # NOTE: Damage is still boosted even if target has Sticky Hold or a
+      #       substitute.
+      baseDmg = (baseDmg * 1).round
+    end
+    return baseDmg
+  end
+
+  def pbEffectAfterAllHits(user, target)
+    return if user.wild?   # Wild Pokémon can't knock off
+    return if user.fainted?
+    return if target.damageState.unaffected || target.damageState.substitute
+    return if !target.item || target.unlosableItem?(target.item)
+    return if target.hasActiveAbility?(:STICKYHOLD) && !@battle.moldBreaker
+    itemName = target.itemName
+    target.pbRemoveItem(false)
+    @battle.pbDisplay(_INTL("{1} dropped its {2}!", target.pbThis, itemName))
+  end
+end

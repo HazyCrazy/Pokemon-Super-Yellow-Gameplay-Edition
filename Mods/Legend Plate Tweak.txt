@@ -1,0 +1,21 @@
+Vanilla Gen 9 Pack [004] Legend Plate Functions.rb
+
+#-----------------------------------------------------------------------------
+  # Used to simplify checking for a valid Pokemon using the Legend Plate.
+  #-----------------------------------------------------------------------------
+  def hasLegendPlateJudgment?
+    return isSpecies?(:ARCEUS) && 
+           hasActiveAbility?(:MULTITYPE) && 
+           hasActiveItem?(:LEGENDPLATE) &&
+           pbHasMove?(:JUDGMENT)
+  end
+  
+Super Yellow Legend Plate Tweak (Super Yellow Arceus now has multiple abilities)
+#-----------------------------------------------------------------------------
+  # Used to simplify checking for a valid Pokemon using the Legend Plate.
+  #-----------------------------------------------------------------------------
+  def hasLegendPlateJudgment?
+    return isSpecies?(:ARCEUS) && 
+           hasActiveItem?(:LEGENDPLATE) &&
+           pbHasMove?(:JUDGMENT)
+  end

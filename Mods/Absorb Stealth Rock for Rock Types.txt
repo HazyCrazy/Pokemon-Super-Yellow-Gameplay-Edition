@@ -1,0 +1,20 @@
+Battle_ActionSwitching
+
+Vanilla
+
+# Toxic Spikes
+    if battler_side.effects[PBEffects::ToxicSpikes] > 0 && !battler.fainted? && !battler.airborne?
+      if battler.pbHasType?(:POISON)
+        battler_side.effects[PBEffects::ToxicSpikes] = 0
+        pbDisplay(_INTL("{1} absorbed the poison spikes!", battler.pbThis))
+      elsif battler.pbCanPoison?(nil, false) && !battler.hasActiveItem?(:HEAVYDUTYBOOTS)
+        if battler_side.effects[PBEffects::ToxicSpikes] == 2
+          battler.pbPoison(nil, _INTL("{1} was badly poisoned by the poison spikes!", battler.pbThis), true)
+        else
+          battler.pbPoison(nil, _INTL("{1} was poisoned by the poison spikes!", battler.pbThis))
+        end
+      end
+    end
+	
+Super Yellow
+

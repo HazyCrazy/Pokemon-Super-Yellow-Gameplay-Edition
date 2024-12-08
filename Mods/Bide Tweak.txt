@@ -1,0 +1,13 @@
+MoveEffects_MultiHit
+
+Line 647
+
+All that's changed is making the counter damage be times 3.
+This is so there is a reason to use Bide, over Counter/Mirror Coat,
+that do the same thing, but better in pratice. 
+
+def pbFixedDamage(user, target)
+    return user.effects[PBEffects::BideDamage] * 3
+  end
+  
+  

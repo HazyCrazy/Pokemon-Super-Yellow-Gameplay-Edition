@@ -1,0 +1,4365 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[POKEMONTRAINER_Red]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Leaf]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Brendan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_May]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_FRLG_Red]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_FRLG_Leaf]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_HGSS_Ethan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_HGSS_Lyra]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_COLO_Wes]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_GSC_Kris]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_ORAS_Brendan]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_ORAS_May]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_PL_Lucas]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_PL_Dawn]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_BW1_Hilbert]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_BW1_Hilda]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_B2W2_Nate]
+Name = Pokémon Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_B2W2_Rosa]
+Name = Pokémon Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[RIVAL1]
+Name = Rival
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[RIVAL2]
+Name = Rival
+Gender = Male
+BaseMoney = 36
+#-------------------------------
+[AROMALADY]
+Name = Aroma Lady
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[BEAUTY]
+Name = Beauty
+Gender = Female
+BaseMoney = 56
+#-------------------------------
+[BIKER]
+Name = Biker
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[BIRDKEEPER]
+Name = Bird Keeper
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[BUGCATCHER]
+Name = Bug Catcher
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[BURGLAR]
+Name = Burglar
+Gender = Male
+BaseMoney = 88
+SkillLevel = 32
+#-------------------------------
+[CHANNELER]
+Name = Channeler
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[CUEBALL]
+Name = Cue Ball
+Gender = Male
+BaseMoney = 24
+#-------------------------------
+[ENGINEER]
+Name = Engineer
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[FISHERMAN]
+Name = Fisherman
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[GAMBLER]
+Name = Gambler
+Gender = Male
+BaseMoney = 72
+SkillLevel = 32
+#-------------------------------
+[GENTLEMAN]
+Name = Gentleman
+Gender = Male
+BaseMoney = 72
+#-------------------------------
+[HIKER]
+Name = Hiker
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[JUGGLER]
+Name = Juggler
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[LADY]
+Name = Lady
+Gender = Female
+BaseMoney = 160
+SkillLevel = 72
+#-------------------------------
+[PAINTER]
+Name = Painter
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[POKEMANIAC]
+Name = Poké Maniac
+Gender = Male
+BaseMoney = 64
+#-------------------------------
+[POKEMONBREEDER]
+Name = Pokémon Breeder
+Gender = Female
+BaseMoney = 48
+#-------------------------------
+[PROFESSOR]
+Name = Professor
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[ROCKER]
+Name = Rocker
+Gender = Male
+BaseMoney = 24
+#-------------------------------
+[RUINMANIAC]
+Name = Ruin Maniac
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[SAILOR]
+Name = Sailor
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[SCIENTIST]
+Name = Scientist
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[SUPERNERD]
+Name = Super Nerd
+Gender = Male
+BaseMoney = 48
+#-------------------------------
+[TAMER]
+Name = Tamer
+Gender = Male
+BaseMoney = 40
+#-------------------------------
+[BLACKBELT]
+Name = Black Belt
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[CRUSHGIRL]
+Name = Crush Girl
+Gender = Female
+BaseMoney = 24
+#-------------------------------
+[CAMPER]
+Name = Camper
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[PICNICKER]
+Name = Picnicker
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[COOLTRAINER_M]
+Name = Cool Trainer
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[COOLTRAINER_F]
+Name = Cool Trainer
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[YOUNGSTER]
+Name = Youngster
+Gender = Male
+BaseMoney = 16
+#-------------------------------
+[LASS]
+Name = Lass
+Gender = Female
+BaseMoney = 16
+#-------------------------------
+[POKEMONRANGER_M]
+Name = Pokémon Ranger
+Gender = Male
+BaseMoney = 60
+#-------------------------------
+[POKEMONRANGER_F]
+Name = Pokémon Ranger
+Gender = Female
+BaseMoney = 60
+#-------------------------------
+[PSYCHIC_M]
+Name = Psychic
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[PSYCHIC_F]
+Name = Psychic
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[SWIMMER_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 16
+SkillLevel = 32
+#-------------------------------
+[SWIMMER_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 16
+SkillLevel = 32
+#-------------------------------
+[SWIMMER2_M]
+Name = Swimmer
+Gender = Male
+BaseMoney = 16
+SkillLevel = 32
+#-------------------------------
+[SWIMMER2_F]
+Name = Swimmer
+Gender = Female
+BaseMoney = 16
+SkillLevel = 32
+#-------------------------------
+[TUBER_M]
+Name = Tuber
+Gender = Male
+BaseMoney = 4
+SkillLevel = 16
+#-------------------------------
+[TUBER_F]
+Name = Tuber
+Gender = Female
+BaseMoney = 4
+SkillLevel = 16
+#-------------------------------
+[TUBER2_M]
+Name = Tuber
+Gender = Male
+BaseMoney = 4
+SkillLevel = 16
+#-------------------------------
+[TUBER2_F]
+Name = Tuber
+Gender = Female
+BaseMoney = 4
+SkillLevel = 16
+#-------------------------------
+[COOLCOUPLE]
+Name = Cool Couple
+Gender = Unknown
+BaseMoney = 72
+SkillLevel = 48
+#-------------------------------
+[CRUSHKIN]
+Name = Crush Kin
+Gender = Unknown
+BaseMoney = 48
+#-------------------------------
+[SISANDBRO]
+Name = Sis and Bro
+Gender = Unknown
+BaseMoney = 16
+SkillLevel = 48
+#-------------------------------
+[TWINS]
+Name = Twins
+Gender = Unknown
+BaseMoney = 24
+#-------------------------------
+[YOUNGCOUPLE]
+Name = Young Couple
+Gender = Unknown
+BaseMoney = 60
+SkillLevel = 32
+#-------------------------------
+[TEAMROCKET_M]
+Name = Team Rocket
+Gender = Male
+BaseMoney = 32
+#-------------------------------
+[TEAMROCKET_F]
+Name = Team Rocket
+Gender = Female
+BaseMoney = 32
+#-------------------------------
+[ROCKETBOSS]
+Name = Rocket Boss
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[LEADER_Brock]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Misty]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Surge]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Erika]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Koga]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Sabrina]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Blaine]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Giovanni]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Lorelei]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Bruno]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Agatha]
+Name = Elite Four
+Gender = Female
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Lance]
+Name = Elite Four
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[CHAMPION]
+Name = Champion
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Champion
+VictoryBGM = Battle victory leader
+#-------------------------------
+[JOHTOIAN_HGSS_KAREN]
+Name = Indigo Champion
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 278 Battle! (Champion)
+VictoryBGM = HGSS 279 The Hall of Fame
+#-------------------------------
+[KANTOIAN_HGSS_LANCE]
+Name = Sky Dragon Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon MAEX Vs Lance
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_AGATHA]
+Name = Grave Channeler
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon MAEX Vs Agatha
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_BRUNO]
+Name = Stoic Mountain
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon MAEX Vs Bruno
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_LORELEI]
+Name = Freezing Fire
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon MAEX Vs Lorelei
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_KABU]
+Name = Blazing Faith Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 060 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_MARNIE]
+Name = Dark Pink Master
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 068 Battle! (Marnie)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ORREAN_COLO_RIDER_WILLIE]
+Name = World Rider Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 57 Rider Willie Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_WILL]
+Name = Illusion Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = TA 06 Space Hiking
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_HOOPSTER]
+Name = THE
+Gender = Male
+BaseMoney = 100
+BattleBGM = Trauma Center DS Under the Knife Opening Heart Beat
+VictoryBGM = HGSS 279 The Hall of Fame
+#-------------------------------
+[KANTOIAN_HGSS_BLUE_OAK]
+Name = Gym Leader Champion
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_BLAINE_CASUAL]
+Name = Hot Headed Quizzer
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOTHOIAN_HGSS_CHUCK]
+Name = Roaring Ocean Fist
+Gender = Male
+BaseMoney = 100
+BattleBGM = Yu Go Oh Duel Links Gong Strong ARC V Theme
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_SABRINA]
+Name = Mistress of Mysticism
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_FRLG_SABRINA]
+Name = Mistress of Mysticism
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_SABRINA]
+Name = Mistress of Mysticism
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_JANINE]
+Name = Poisonous Ninja Master's Daughter
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 23 Poison Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_KOGA]
+Name = Poisonous Ninja Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_ERIKA]
+Name = Nature Loving Princess
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_LT_SURGE]
+Name = Lightning American
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_MISTY_CASUAL]
+Name = Tomboy Mermaid
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_BROCK_CASUAL]
+Name = Rock Solid
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[POKETOPIA_PBR_TAYLOR]
+Name = Main Street Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = BR 15 Main Street Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[POKETOPIA_PBR_MARINA]
+Name = Waterfall Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = BR 07 Waterfall Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[POKETOPIA_PBR_ROSIE]
+Name = Neon Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = BR 14 Neon Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[POKETOPIA_PBR_VOLDON]
+Name = Crystal Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = BR 16 Crystal Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[POKETOPIA_PBR_TERREL]
+Name = Magma Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = BR 08 Magma Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[POKETOPIA_PBR_DUSTY]
+Name = Sunset Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = BR 11 Sunset Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_ELDER]
+Name = Ultimate trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = BR 12 Stargazer Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_OFFICE_WORKER_WOMAN]
+Name = Master of Chaos
+Gender = Female
+BaseMoney = 100
+BattleBGM = Trauma Center DS Under the Knife Opening Heart Beat
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_RANCHER]
+Name = a farmer
+Gender = Male
+BaseMoney = 100
+SkillLevel = 48
+BattleBGM = Big Iron But it's Been Shagged by an Audiophile and Rendered Using a Biscuit Tin By DominantChris
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_ARTIST_MAN]
+Name = Merciless Artist
+Gender = Male
+BaseMoney = 100
+BattleBGM = Beethoven Virus Orginal by Diana Boncheva Nightcore Remix by Zero.Miz-Kun
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOTHOIAN_HGSS_FIRE_BREATHER]
+Name = Fat Fuck
+Gender = Male
+BaseMoney = 100
+BattleBGM = 16 Bit Genesis Pepperman Strikes Pizza Tower By JX
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_SCIENTIST]
+Name = Some guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = t+pazolite - Oshama Scramble! (uncut edition)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_ARTIST_MAN]
+Name = No Mercy
+Gender = Male
+BaseMoney = 100
+BattleBGM = Man With a Mission When My Devil Rises
+VictoryBGM = Main Theme Sonic Adventure 3 SilvaGunner
+#-------------------------------
+[GALARIAN_SWSH_WORKER_MAN]
+Name = Galarian Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 096 Battle! (Pokemon League Tournament)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_WORKER_WOMAN]
+Name = Galarian Worker
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 096 Battle! (Pokemon League Tournament)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_OFFICE_WORKER_MAN]
+Name = Galarian Office Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_OFFICE_WORKER_WOMAN]
+Name = Galarian Office Worker
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_ACETRAINER_MAN]
+Name = Alolan Ace Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_ACETRAINER_WOMAN]
+Name = Alolan Ace Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_VETERAN_MAN]
+Name = Alolan Veteran Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 063 Battle! (Totem Pokemon)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_VETERAN_WOMAN]
+Name = Alolan Veteran Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 063 Battle! (Totem Pokemon)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_ACETRAINER_MAN]
+Name = Kaloian Ace Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 189 Super Training!
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_ACETRAINER_WOMAN]
+Name = Kaloian Ace Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 189 Super Training!
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_VETERAN_MAN]
+Name = Kaloian Veteran Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 193 Secret Super Training!
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_VETERAN_WOMAN]
+Name = Kaloian Veteran Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 193 Secret Super Training!
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_ACETRAINER_BOY]
+Name = Unovaian Ace Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokémon SV Unova Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_ACETRAINER_GIRL]
+Name = Unovaian Ace Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokémon SV Unova Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_VETERAN_MAN]
+Name = Unovaian Veteran Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_VETERAN_WOMAN]
+Name = Unovaian Veteran Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ACETRAINER_MAN]
+Name = Sinnohian Ace Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ACETRAINER_WOMAN]
+Name = Sinnohian Ace Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ACETRAINER_WINTER_MAN]
+Name = Sinnohian Winter Ace Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ACETRAINER_WINTER_WOMAN]
+Name = Sinnohian Winter Ace Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_DRAGON_TAMER]
+Name = Sinnohian Dragon Tamer
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_FISHERMAN]
+Name = Sinnohian Fisherman
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_MAID]
+Name = Sinnohian Maid
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_WAITER]
+Name = Sinnohian Waiter
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_VETERAN]
+Name = Sinnohian Veteran
+Gender = Male
+BaseMoney = 100
+BattleBGM = PLA 009 Battle! (Pokemon Wielder)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_IDOL]
+Name = Sinnohian Idol
+Gender = Female
+BaseMoney = 100
+BattleBGM = BR 10 Sunny Park Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_ACETRAINER_MAN]
+Name = Hoennian Ace Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_ACETRAINER_WOMAN]
+Name = Hoennian Ace Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_BLACK_BELT]
+Name = Hoennian Black Belt
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 36 Colesseum - 2nd Round
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_BATTLE_GIRL]
+Name = Hoennian Battle Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = XD 36 Colesseum - 2nd Round
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_ACETRAINER_MAN]
+Name = Johtoian Ace Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_ACETRAINER_WOMAN]
+Name = Johtoian Ace Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_GUITARIST]
+Name = Johtoian Guitarist
+Gender = Male
+BaseMoney = 100
+BattleBGM = BR 13 Gateway Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_BEAUTY]
+Name = Johtoian Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = BR 28 Lagoon Colosseum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KATOIAN_LGPE_PSYCHIC]
+Name = Kantoian Psychic
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_CHANNELER]
+Name = Kantoian Channeler
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KATOIAN_LGPE_WORKER]
+Name = Kantoian Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 206 Battle! (Wild Pokemon) [Pokemon Origins Version] (Bonus Track) Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PASIOIAN_MAEX_BEAUTY]
+Name = Pasioian Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 206 Battle! (Wild Pokemon) [Pokemon Origins Version] (Bonus Track) Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_CABBIE]
+Name = Galarian Cabbie
+Gender = Male
+BaseMoney = 100
+BattleBGM = TA 03 Deerling Park
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_MADAME]
+Name = Alolan Madame
+Gender = Female
+BaseMoney = 100
+BattleBGM = TA 13 Great Paradise
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_PARASOL_LADY]
+Name = Hoennian Parasol Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = TA 05 Blastoise_s Resort
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_BORDER]
+Name = Johtoian Border
+Gender = Male
+BaseMoney = 100
+BattleBGM = TA 14 Glalie_s Snow-Covered Road
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ROUGHNECK]
+Name = Sinnohian Roughneck
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_GUITARIST_WOMAN]
+Name = Unovaian Guitarist
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 086 Battle! (Battle Royale)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BACKPACKER_WOMAN]
+Name = Unovaian Backpacker
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 16 Normal Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_KINDLER]
+Name = Hoennian Kindler
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 17 Fire Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_BLACK_BELT]
+Name = Johtoian Black Belt
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 22 Fighting Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_PARASOL_LADY]
+Name = Sinnohian Parasol Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 18 Water Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SKYTRAINER_WOMAN]
+Name = Kaloian Sky Trainer Woman
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 25 Flying Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_AROMALADY]
+Name = Hoennian Aroma Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 20 Grass Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_NINJA_BOY]
+Name = Hoennian Ninja Boy
+Gender = Male
+BaseMoney = 100
+BattleBGM = BR 03 Colosseum Leader (Kruger)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SKYTRAINER_MAN]
+Name = Kaloian Sky Trainer Man
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 19 Electric Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_BIKER]
+Name = Johtoian Biker
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 24 Ground Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_TEACHER]
+Name = Johtoian Teacher
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 26 Psychic Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_HIKER]
+Name = Alolan Hiker
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 28 Rock Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_BEAUTY]
+Name = Alolan Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 21 Ice Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_DOCTOR]
+Name = Unovian Doctor
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 27 Bug Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_POKE_FAN_WOMAN]
+Name = Hoennian Poke Fan
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 31 Dragon Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_SAGE]
+Name = Johtoian Sage
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 29 Ghost Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_BLACK_FURISODE_GIRL]
+Name = Kaloian Furisode Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 32 Dark Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_WORKER]
+Name = Sinnohian Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 30 Steel Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_FRLG_LASS]
+Name = Kantoian Lass
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 33 Legendary Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_ARTIST_WOMAN]
+Name = Kaloian Artist
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokkén Tournament Tellur Town Autumn
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CHERYL]
+Name = Pokemon Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = BR 02 Minor Boss Theme
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_RILEY]
+Name = Pokemon Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = BR 02 Minor Boss Theme
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BUCK]
+Name = Pokemon Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = BR 02 Minor Boss Theme
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_MIRA]
+Name = Pokemon Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = BR 02 Minor Boss Theme
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_MARLEY]
+Name = Pokemon Trainer
+Gender = Female
+BaseMoney = 100
+BattleBGM = BR 02 Minor Boss Theme
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_STEVEN_STONE]
+Name = Hoenn Champion
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 096 Battle! (Steven)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_USUM_CYNTHIA_VACATION]
+Name = Sinnoh Champion
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 211 Battle! (Champion Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_B2W2_CYNTHIA]
+Name = Sinnoh Champion
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 211 Battle! (Champion Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_ALDER]
+Name = Teacher of Kind Strength
+Gender = Male
+BaseMoney = 100
+BattleBGM = BW 412 Battle! (Champion)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_IRIS_CHAMPION]
+Name = Unova Champion
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 329 Battle! (Champion Iris)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BENGA]
+Name = Boss Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = BW 412 Battle! (Champion)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_DIANTHA]
+Name = Kalos Champion
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 120 Battle! (Champion)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_LEON]
+Name = Galar Champion
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 115 Battle! (Battle Tower)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_LEON_TOWER]
+Name = Galar Champion
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 115 Battle! (Battle Tower)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_SILVER]
+Name = Giovanni's Son
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 138 Battle! (Rival)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_GIOVANNI]
+Name = Team Rocket Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon Ultra Sun Ultra Moon Rocket Boss Giovanni Battle Music
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_ARCHER]
+Name = Team Rocket Admin
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokémon Ultra Sun Ultra Moon Team Rainbow Rocket Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_ARIANA]
+Name = Team Rocket Admin
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokémon Ultra Sun Ultra Moon Team Rainbow Rocket Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_PETREL]
+Name = Team Rocket Admin
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokémon Ultra Sun Ultra Moon Team Rainbow Rocket Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_PROTO]
+Name = Team Rocket Admin
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokémon Ultra Sun Ultra Moon Team Rainbow Rocket Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_ROCKET_GRUNT_MAN]
+Name = Team Rocket Grunt
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 135 Battle! (Team Rocket)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_ROCKET_GRUNT_WOMAN]
+Name = Team Rocket Grunt
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 135 Battle! (Team Rocket)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_ROCKET_GRUNT_WOMAN]
+Name = Team Rainbow Rocket Grunt
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokémon Ultra Sun Ultra Moon Team Rainbow Rocket Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_ROCKET_GRUNT_MAN]
+Name = Some crooked guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = Magnolia YM2151 and Sega PCM by MegaBaz
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_SUPER_NERD]
+Name = Some nerdy guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = Digimon Rumble Arena Soundtrack - Crazy Battlefield
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_BIRDKEEPER]
+Name = Some sky high guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = Reverse Of Arcadia NDS - 5D's Mode Duel Music 8
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_POKEMON_RANGER_MAN]
+Name = Some dorky guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = Break Through The Kingdoms Control Sonic Frontiers vs Linkin Park by Hyper Shan
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_JANITOR]
+Name = Some jannie guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = Shin Megami Tensei V OST Battle Beelzebub
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_BACKPACKER]
+Name = Some traveler guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = Etrian Odyssey III Super Arrange Battlefield Those that Slay and Fall
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_JANITOR]
+Name = Some jannie guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = Super Mario Bros CD OST Beach Vacation Bouba
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_POST_MAN]
+Name = Some delivery guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = SilvaGunner Resist and Disorder OST Version Cyberpunk 2077
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_JANITOR]
+Name = Some jannie guy called
+Gender = Male
+BaseMoney = 100
+BattleBGM = Dragon Ball Z Gohan Powers Up Julius Dobos Remake by Gladius
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BARRY]
+Name = Pokemon Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 029 Battle! (Rival)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_FIREFIGHTER]
+Name = Alolan Firefighter
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_FISHERMAN]
+Name = Alolan Fisherman
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_NURSE]
+Name = Alolan Nurse
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_DANCER]
+Name = Galarian Dancer
+Gender = Female
+BaseMoney = 100
+BattleBGM = Sounds Alike Cheetahd Ace Attorney 52 by DjtheSdotcom
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_FISHERWOMAN]
+Name = Galarian Fisherwoman
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_BRAWLY]
+Name = The Big Wave
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_FLANNERY]
+Name = Burning Passion
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_JUAN]
+Name = Dynamism Artist
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_LIZA]
+Name = Mystical Moon
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_LIZA_TATE]
+Name = Mystical Twins
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_NORMAN]
+Name = Pursuer of Power
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_ROXANNE]
+Name = Rock Solid Honors Student
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_TATE]
+Name = Mystical Sun
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_WALLACE]
+Name = Former Hoenn Champion
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 209 Battle! (Champion Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_WATTSON]
+Name = Electrifying Cheerful
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_B2W2_WINONA]
+Name = World Flyer
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 208 Battle! (Gym Leader Hoenn)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_FISHER_MAN]
+Name = Hoennian Fisherman
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_POKE_MANIAC]
+Name = Poke Maniac
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_POKEMON_BREEDER_MAN]
+Name = Hoennian Pokemon Breeder
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_POKEMON_BREEDER_WOMAN]
+Name = Hoennian Pokemon Breeder
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_BUGSY]
+Name = Bug Encyclopedia
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 206 Battle! (Gym Leader Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_CLAIR]
+Name = Ocean Dragon Master
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 206 Battle! (Gym Leader Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_FALKNER]
+Name = Elegant Flying Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 206 Battle! (Gym Leader Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_JASMINE]
+Name = Steel Clad Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 206 Battle! (Gym Leader Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_JUGGLER]
+Name = Johtoian Juggler
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_KIMONO_GIRL]
+Name = Johtoian Kimono Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_MORTY]
+Name = Mystical Seer
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 206 Battle! (Gym Leader Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_POKE_MANIAC]
+Name = Poke Maniac
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_PRYCE]
+Name = Winter's Teacher
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 206 Battle! (Gym Leader Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_WHITNEY]
+Name = Incredible Pretty Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 206 Battle! (Gym Leader Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_MEDIUM]
+Name = Johtoian Medium
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_BEAUTY]
+Name = Kaloian Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_BLUE_FURISODE_GIRL]
+Name = Kaloian Blue Furisode Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_DRASNA]
+Name = Mother of Dragons
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 119 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_FISHERMAN]
+Name = Kaloian Fisherman
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_HEX_MANIAC]
+Name = Kaloian Hex Maniac
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_MALVA]
+Name = Scorching Reporter
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 119 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_PINK_FURISODE_GIRL]
+Name = Kaloian Pink Furisode Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_POKEMON_BREEDER_MAN]
+Name = Kaloian Pokemon Breeder
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_POKEMON_BREEDER_WOMAN]
+Name = Kaloian Pokemon Breeder
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SCIENTIST_MAN]
+Name = Kaloian Scientist
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SCIENTIST_WOMAN]
+Name = Kaloian Scientist
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SIEBOLD]
+Name = High Seas Chef
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 119 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SWIMMER_MAN]
+Name = Kaloian Swimmer
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SWIMMER_WOMAN]
+Name = Kaloian Swimmer
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_WHITE_FURISODE_GIRL]
+Name = Kaloian White Furisode Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_WIKSTROM]
+Name = Pure Steel Guardian
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 119 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_AARON]
+Name = Slick Catcher
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 118 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_PALMER]
+Name = Tower Tycoon
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 448 Battle! (Frontier Brain - Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ARGENTA]
+Name = Hall Matron
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 448 Battle! (Frontier Brain - Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ARTIST]
+Name = Sinnohian Artist
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BEAUTY]
+Name = Sinnohian Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = SilvaGunner Universal Dance Vib Ribbon
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BERTHA]
+Name = Elderly Veteran
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 118 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BYRON]
+Name = Steel Body
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 210 Battle! (Gym Leader Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CAITLIN]
+Name = Castle Owner
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 448 Battle! (Frontier Brain - Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CANDICE]
+Name = Diamond Dust Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 210 Battle! (Gym Leader Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CLOWN]
+Name = Sinnohian Clown
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CRASHER_WAKE]
+Name = Torrential Masked Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 210 Battle! (Gym Leader Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CYCLIST_MAN]
+Name = Sinnohian Cyclist
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CYCLIST_WOMAN]
+Name = Sinnohian Cyclist
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_DAHLIA]
+Name = Arcade Star
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 448 Battle! (Frontier Brain - Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_DARACH]
+Name = Castle Valet
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 448 Battle! (Frontier Brain - Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_FLINT]
+Name = Ignited Afro
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 118 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_LUCIAN]
+Name = Visionary Scholar
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 118 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_POKEMON_BREEDER_MAN]
+Name = Sinnohian Pokemon Breeder
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_POKEMON_BREEDER_WOMAN]
+Name = Sinnohian Pokemon Breeder
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_PRIVATE_INVESTIGATOR]
+Name = Sinnohian Private Investigator
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ROARK]
+Name = The Rock Miner
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 210 Battle! (Gym Leader Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_MAYLENE]
+Name = Fighting Genius
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 210 Battle! (Gym Leader Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_FANTINA]
+Name = Alluring Soulful Dancer
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 210 Battle! (Gym Leader Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_GARDENIA]
+Name = Green Thumb Master
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 210 Battle! (Gym Leader Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_RUIN_MANIAC]
+Name = Sinnohian Ruin Maniac
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_THORTON]
+Name = Factory Head
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 448 Battle! (Frontier Brain - Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_VOLKNER]
+Name = Shining Shocking Star
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 210 Battle! (Gym Leader Sinnoh)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHAIN_DPP_WAITER]
+Name = Sinnohian Waiter
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_WAITRESS]
+Name = Sinnohian Waitress
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_ARTIST]
+Name = Unovaian Artist
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BACKER_MEN]
+Name = Unovaian Backer Men
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BACKER_WOMEN]
+Name = Unovaian Backer Women
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BAKER]
+Name = Unovaian Baker
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BEAUTY]
+Name = Unovaian Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BIANCA]
+Name = Researcher of Truth
+Gender = Female
+BaseMoney = 100
+BattleBGM = BW 107 Battle! (Cheren _ Bianca)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BRYCEN]
+Name = Quiet Ice Mask
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BURGH]
+Name = Insect Artist
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CAITLIN]
+Name = Dream Creator
+Gender = Female
+BaseMoney = 100
+BattleBGM = BW 229 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CHEREN]
+Name = Battler of Ideals
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CHILI]
+Name = Triple Fire Trouble
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CILAN]
+Name = Triple Grass Trouble
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CLAY]
+Name = Underground Boss
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CRESS]
+Name = Triple Water Trouble
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CYCLIST_MAN]
+Name = Unovaian Cyclist
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CYCLIST_WOMAN]
+Name = Unovaian Cyclist
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_DANCER]
+Name = Unovaian Dancer
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pharrell Williams PISS'N'POO'D ON by Nick Robinson or Babylonian
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_DRAYDEN]
+Name = Spartan Mayor
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_ELESA]
+Name = Shining Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_EMMET]
+Name = Subway Boss
+Gender = Male
+BaseMoney = 100
+BattleBGM = BW 412 Battle! (Champion)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_EMMET_INGO]
+Name = Subway Twins
+Gender = Male
+BaseMoney = 100
+BattleBGM = BW 412 Battle! (Champion)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_FISHERMAN]
+Name = Unovaian Fisherman
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_GRIMSLEY]
+Name = Luck's Gambler
+Gender = Male
+BaseMoney = 100
+BattleBGM = BW 229 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_HARLEQUIN]
+Name = Unovaian Harlequin
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_INFIELDER]
+Name = Unovaian Infielder
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_INGO]
+Name = Subway Boss
+Gender = Male
+BaseMoney = 100
+BattleBGM = BW 412 Battle! (Champion)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_LENORA]
+Name = Museum Director
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_LENORA_CAPE]
+Name = Museum Director
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_LINEBACKER]
+Name = Unovaian Linebacker
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_MAID]
+Name = Unovaian Maid
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_MARLON]
+Name = Man of the Sea
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_MARSHAL]
+Name = Student of Kind Strength
+Gender = Male
+BaseMoney = 100
+BattleBGM = BW 229 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_NURSE]
+Name = Unovaian Nurse
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_PARASOL_LADY]
+Name = Unovaian Parasol Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_POKEMON_BREEDER_MAN]
+Name = Unovaian Pokemon Breeder
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_POKEMON_BREEDER_WOMAN]
+Name = Unovaian Pokemon Breeder
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_PSYCHIC_MAN]
+Name = Unovaian Psychic
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_PSYCHIC_WOMAN]
+Name = Unovaian Psychic
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_ROXIE]
+Name = Toxic Rock Star
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SHAUNTAL]
+Name = Author of Horror
+Gender = Female
+BaseMoney = 100
+BattleBGM = BW 229 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SKYLA]
+Name = High Flying Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 147 Battle! (Gym Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SMASHER]
+Name = Unovaian Smasher
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_STRIKER]
+Name = Unovaian Striker
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_WAITER]
+Name = Unovaian Waiter
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_WAITRESS]
+Name = Unovaian Waitress
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SUIT_ACTOR]
+Name = The Real Deal
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 116 Filming Underway at Pokestar Studios
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_REPORTER]
+Name = Sinnohian Reporter
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_REPORTER_CAMERAMAN]
+Name = Interview Duo
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_COWGIRL]
+Name = Sinnohian Cowgril
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_MODEL]
+Name = Galarian Model
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_LADY]
+Name = Unovaian Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_LADY]
+Name = Hoennian Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_LADY]
+Name = Kaloian Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_LADY]
+Name = Sinnohian Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_HIKER]
+Name = Kaloian Hiker
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_HIKER]
+Name = Unovaian Hiker
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_DEPOT_AGENT]
+Name = Unovaian Depot Agent
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_COLLECTOR]
+Name = Sinnohian Collector
+Gender = Male
+BaseMoney = 100
+BattleBGM = Trauma Center DS Under the Knife Opening Heart Beat
+VictoryBGM = BR 17 Ending to Poketopia
+#-------------------------------
+[SINNOHIAN_DPP_CAMERAMAN]
+Name = Sinnohian Cameraman
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_AROMA_LADY]
+Name = Sinnohian Aroma Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_BACKPACKER]
+Name = Paldean Backpacker
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B1W1_GHETSIS]
+Name = Team Plasma Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = BW 239 Battle! (Ghetsis)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_BURGLAR]
+Name = Johtoian Burglar
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 49 Battle Bingo - Board
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_BURGLAR]
+Name = Kantoian Burglar
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_BODYBUILDER_WOMAN]
+Name = Paldean Bodybuilder
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV Academy Ace Tournament Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_BODYBUILDER_MAN]
+Name = Paldean Bodybuilder
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Academy Ace Tournament Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BLACK_BELT]
+Name = Unovaian Black Belt
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_BLACK_BELT]
+Name = Paldean Black Belt
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_BLACK_BELT]
+Name = Galarian Black Belt
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_BLACK_BELT]
+Name = Alolan Black Belt
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BLACK_BELT]
+Name = Sinnohian Black Belt
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BIKER]
+Name = Unovaian Biker
+Gender = Male
+BaseMoney = 100
+BattleBGM = TA 12 Bright Sunshine
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_BEAUTY]
+Name = Hoennian Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BATTLE_GIRL]
+Name = Sinnohian Battle Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BATTLE_GIRL]
+Name = Unovaian Battle Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_BALL_GUY]
+Name = The Real Deal
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 096 Battle! (Pokemon League Tournament)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_BEAUTY]
+Name = Galarian Beauty
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_PILOT]
+Name = Unovaian Pilot
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_PROFESSOR_OAK]
+Name = Former Kanto Champion
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle trainer
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_KINGAMBIT]
+Name = Wild Overlord
+Gender = Male
+BaseMoney = 100
+BattleBGM = Can You Feel My Honour Epic Samurai Version By Carameii
+VictoryBGM = BR 17 Ending to Poketopia
+#-------------------------------
+[HOENNIAN_ORAS_ARCHIE]
+Name = Team Aqua Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 072 Battle! (Team Magma _ Aqua Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_MAXIE]
+Name = Team Magma Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 072 Battle! (Team Magma _ Aqua Leader)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CYRUS]
+Name = Galactic Boss
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 067 Battle! (Team Galactic Boss)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_GHETSIS]
+Name = Team Plasma Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 308 Battle! (Ghetsis)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_LYSANDRE]
+Name = Team Flare Boss
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 104 Battle! (Lysandre)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_LUSAMINE]
+Name = Aether President
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 122 Battle! (Lusamine)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_EUSINE]
+Name = Mystery Man
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon MAEX Vs. Eusine
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_PROFESSOR_SADA]
+Name = AI
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV AI Sada Turo Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_PROFESSOR_TURO]
+Name = AI
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV AI Sada Turo Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_COOK]
+Name = Alolan Cook
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_OFFICE_WORKER_MAN]
+Name = Alolan Office Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_OFFICER]
+Name = Alolan Officer
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_SCIENTIST]
+Name = Alolan Scientist
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_SIGHTSEER_MAN]
+Name = Alolan Sightseer
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_SIGHTSEER_WOMAN]
+Name = Alolan Sightseer
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_CAFE_MASTER]
+Name = Galarian Cafe Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_COOK]
+Name = Galarian Cook
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_BUG_MANIAC]
+Name = Hoennian Bug Maniac
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_COLLECTOR]
+Name = Hoennian Collector
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_DELINQUENT]
+Name = Hoennian Delinquent
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_DRAGON_TAMER]
+Name = Hoennian Dragon Tamer
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 78 Last Battle (Unused)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_GUITARIST]
+Name = Hoennian Guitarist
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_SAILOR]
+Name = Hoennian Sailor
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_STREET_THUG]
+Name = Hoennian Street Thug
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HUBIAN_POKENGINE_CAFE_MASTER]
+Name = Hubian Cafe Master
+Gender = Male
+BaseMoney = 100
+BattleBGM = Spyro A Heros Tail Moneybags Shop
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HUBIAN_POKENGINE_COURIER]
+Name = Hubian Courier
+Gender = Male
+BaseMoney = 100
+BattleBGM = PIC 02 Bgm Daily
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HUBIAN_POKENGINE_GARDENER]
+Name = Hubian Gardener
+Gender = Female
+BaseMoney = 100
+BattleBGM = TA 11 Pikachu Park
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HUBIAN_POKENGINE_SAILOR]
+Name = Hubian Sailor
+Gender = Male
+BaseMoney = 100
+BattleBGM = TA 07 Zorua Archipelago
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_SWIMMER_MAN]
+Name = Johtoian Swimmer
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_SWIMMER_WOMAN]
+Name = Johtoian Swimmer
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_CHEF]
+Name = Kaloian Chef
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_CONSTRUCTION_WORKER]
+Name = Kaloian Construction Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_GARDENER]
+Name = Kaloian Gardener
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_GREEN_TOURIST]
+Name = Kaloian Tourist
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_ORANGE_TOURIST]
+Name = Kaloian Tourist
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_POKEMON_RANGER_WOMAN]
+Name = Kaloian Pokemon Ranger
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_PSYCHIC]
+Name = Kaloian Psychic
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_PUNK_TRAINER_MAN]
+Name = Kaloian Punk
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_PUNK_TRAINER_WOMAN]
+Name = Kaloian Punk
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_TECHNIAL_WORKER]
+Name = Kaloian Technial Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_TOURIST]
+Name = Kaloian Tourist
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_WAITER]
+Name = Kaloian Waiter
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_WAITRESS]
+Name = Kaloian Waitress
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_FRLG_LADY]
+Name = Kantoian Lady
+Gender = Female
+BaseMoney = 100
+BattleBGM = Conquest 33 Legendary Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_BIRD_KEEPER]
+Name = Kantoian Bird Keeper
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_BLACK_BELT]
+Name = Kantoian Black Belt
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_GAMBLER]
+Name = Kantoian Gambler
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_POKE_MANIAC]
+Name = Kantoian Poke Maniac
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_SAILOR]
+Name = Kantoian Sailor
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_SWIMMER_MAN]
+Name = Kantoian Swimmer
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_SWIMMER_WOMAN]
+Name = Kantoian Swimmer
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 208 Battle! (Trainer Battle) [Pokemon Origins Version] (Bonus Track)Tweak
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KITAKAMIAN_SV_CARETAKER]
+Name = Kaloian Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = Conquest 07 Dungeon Theme 2
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[OERRIAN_XD_MIROR_B]
+Name = Wanderer
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 44 Mirror B. Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_COURIER]
+Name = Paldean Courier
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_DRAGON_TAMER]
+Name = Paldean Dragon Tamer
+Gender = Female
+BaseMoney = 100
+BattleBGM = XD 26 Cipher Admin Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_MODEL]
+Name = Paldean Model
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_OFFICE_WORKER_WOMAN]
+Name = Paldean Office Worker
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_OFFICE_WORKER_MAN]
+Name = Paldean Office Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Academy Ace Tournament Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_SCIENTIST]
+Name = Paldean Scientist
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Academy Ace Tournament Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_WORKER]
+Name = Paldean Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PASOIAN_MAEX_SWIMMER]
+Name = Pasoian Swimmer
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 11 Cipher Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BIRD_KEEPER_MAN]
+Name = Sinnohian Bird Keeper
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_BIRD_KEEPER_WOMAN]
+Name = Sinnohian Bird Keeper
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_HIKER]
+Name = Sinnohian Hiker
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_JOGGER]
+Name = Sinnohian Jogger
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_OFFICER]
+Name = Sinnohian Officer
+Gender = Male
+BaseMoney = 100
+BattleBGM = TA 15 Caps Lock Museum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_POKEMON_RANGER_WOMAN]
+Name = Sinnohian Pokemon Ranger
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SAILOR]
+Name = Sinnohian Sailor
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SCIENTIST]
+Name = Sinnohian Scientist
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SWIMMER_MAN]
+Name = Sinnohian Swimmer
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SWIMMER_WOMAN]
+Name = Sinnohian Swimmer
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_BACKPACKER_MAN]
+Name = Unovaian Backpacker
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_MANAGER]
+Name = Unovaian Manager
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_MINES_WORKER]
+Name = Unovaian Miner
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_MUSICIAN]
+Name = Unovaian Musician
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_OFFICE_MAN]
+Name = Unovaian Office Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_OFFICE_WOMAN]
+Name = Unovaian Office Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_OFFICER]
+Name = Kaloian Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = TA 15 Caps Lock Museum
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_POKEMON_RANGER_MAN]
+Name = Unovaian Pokemon Ranger
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 41 Wild Pokemon Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_POKEMON_RANGER_WOMAN]
+Name = Unovaian Pokemon Ranger
+Gender = Female
+BaseMoney = 100
+BattleBGM = XD 41 Wild Pokemon Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SCIENTIST_MAN]
+Name = Unovaian Scientist
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokémon SV Unova Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SCIENTIST_WOMAN]
+Name = Unovaian Scientist
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokémon SV Unova Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SNOW_WORKER]
+Name = Unovaian Snow Worker
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SWIMMER_MAN]
+Name = Unovaian Swimmer
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SWIMMER_WOMAN]
+Name = Unovaian Swimmer
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOAN_USUM_WICKE]
+Name = Aether Foundation Assistant Chief
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 117 Battle! (Aether Foundation)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_AETHER_FOUNDATINO_EMPLOYEE_MAN]
+Name = Aether Foundation Employee
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 117 Battle! (Aether Foundation)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_AETHER_FOUNDATION_EMPLOYEE_WOMAN]
+Name = Aether Foundation Employee
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 117 Battle! (Aether Foundation)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_BELLHOP]
+Name = Alolan Bell Hop 
+Gender = Male 
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_GENTLEMAN]
+Name = Alolan Gentleman
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_GUZMA]
+Name = Team Skull Boss
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 107 Battle! (Team Skull Boss)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_HAU]
+Name = Pokemon Trainer
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 018 Battle! (Hau)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_KAHILI]
+Name = Professional Golfer
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 150 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_KUKUI]
+Name = Pokemon Professor
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 151 The Battle at the Summit!
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_OLIVIA]
+Name = Extraordinary Normal Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 150 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_PALE_SWIMMER_WOMAN]
+Name = Alolan Swimmer
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_PRESCHOOLER_BOY]
+Name = Alolan Preschooler
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_PRESCHOOLER_GIRL]
+Name = Alolan Preschooler
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_PUNK_GIRL]
+Name = Alolan Punk
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_PUNK_GUY]
+Name = Alolan Punk
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_RISING_STAR_BOY]
+Name = Alolan Rising Star
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_RISING_STAR_GIRL]
+Name = Alolan Rising Star
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_SAMSON_OAK]
+Name = Pokemon Professor
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_SKULL_GRUNT_MAN]
+Name = Team Skull Grunt 
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 058 Battle! (Team Skull)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_SKULL_GRUNT_WOMAN]
+Name = Team Skull Grunt 
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 058 Battle! (Team Skull)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_SWIMMER_MAN]
+Name = Alolan Swimmer
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_TANNED_SWIMMER_WOMAN]
+Name = Alolan Swimmer
+Gender = Female
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[ALOLAN_USUM_YOUNGSTER]
+Name = Alolan Youngster
+Gender = Male
+BaseMoney = 100
+BattleBGM = SM 025 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_POKEMON_BREEDER_MAN]
+Name = Galarian Pokemon Breeder
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_POKEMON_BREEDER_WOMAN]
+Name = Galarian Pokemon Breeder
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_CAMERAMAN]
+Name = Galarian Cameraman 
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_DOCTOR_MAN]
+Name = Galarian Doctor
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_DOCTOR_WOMAN]
+Name = Galarian Doctor
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_GENTLEMAN]
+Name = Galarian Gentleman 
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_LASS]
+Name = Galarian Lass
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_REPORTER]
+Name = Galarian Reporter 
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_YELL_GRUNT_MAN]
+Name = Team Yell Grunt 
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 041 Battle! (Team Yell)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_YELL_GRUNT_WOMAN]
+Name = Team Yell Grunt 
+Gender = Female
+BaseMoney = 100
+BattleBGM = SwSh 041 Battle! (Team Yell)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[GALARIAN_SWSH_YOUNGSTER]
+Name = Galarian Youngster
+Gender = Male
+BaseMoney = 100
+BattleBGM = SwSh 024 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_AQUA_GRUNT_MAN]
+Name = Team Aqua Grunt 
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 025 Battle! (Team Magma - Team Aqua)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_AQUA_GRUNT_WOMAN]
+Name = Team Aqua Grunt 
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 025 Battle! (Team Magma - Team Aqua)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_BRIGETTE]
+Name = Pokemon Bank Developer 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XD 75 VS Battle Mode (Version 1)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_CAMPER_BOY]
+Name = Hoennian Camper 
+Gender = Male 
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_CAMPER_GIRL]
+Name = Hoennian Camper
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_COURTNEY]
+Name = Team Magma Admin
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 025 Battle! (Team Magma - Team Aqua)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_EXPERT_MAN]
+Name = Hoennian Expert 
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_GENTLEMAN]
+Name = Hoennina Gentleman 
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_JOSEPH_STONE]
+Name = Devon Corp President
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_LASS]
+Name = Hoennina Lass
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_LISIA]
+Name = Pokémon Idol
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon MAEX Vs Lisia
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_MATT]
+Name = Team Aqua Admin
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 025 Battle! (Team Magma - Team Aqua)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_MOM]
+Name = Mother of Champions
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_MR_BRINEY]
+Name = S.S Tidal Captain
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_PHOEBE]
+Name = Ghostly Dancer
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 094 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_POKEFAN_MAN]
+Name = Hoennina Poke Fan 
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_PROFESSOR_BIRCH]
+Name = Pokemon Professor 
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_SCHOOLBOY]
+Name = Hoennian School Boy 
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_SCHOOLGIRL]
+Name = Hoennian School Girl
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_SHELLY]
+Name = Team Aqua Admin
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 025 Battle! (Team Magma - Team Aqua)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_SIDNEY]
+Name = Hoennian Elite Four 
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 094 Battle! (Elite Four)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_TABITHA]
+Name = Team Magma Admin
+Gender = Male
+BaseMoney = 100
+BattleBGM = Team Magma Admin
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_TEAMMATES]
+Name = Hoennina Teammates
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_TRIATHLETE_BIKE]
+Name = Hoennian Triathlete
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_TRIATHLETE_RUNNING]
+Name = Hoennian Triathlete
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_TRIATHLETE_SWIMMING]
+Name = Hoennian Triathlete
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_TUBER_BOY]
+Name = Hoennian Tuber 
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_TUBER_GIRL]
+Name = Hoennian Tuber 
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_WALLY]
+Name = Pokemon Trainer 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 75 VS Battle Mode (Version 1)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_YOUNGCOUPLE]
+Name = Hoennina Young Couple 
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_ORAS_YOUNGSTER]
+Name = Hoennina Youngster
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_RSE_LUCY]
+Name = Queen of Serpents
+Gender = Female
+BaseMoney = 100
+BattleBGM = ORAS 121 Battle! (Frontier Brain)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_RSE_NINJA_BOY]
+Name = Hoennian Ninja Boy
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_RSE_SCOTT]
+Name = Battle Frontier Owner 
+Gender = Male
+BaseMoney = 100
+BattleBGM = ORAS 017 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HOENNIAN_USUM_ANABEL]
+Name = International Police Officer
+Gender = Female
+BaseMoney = 100
+BattleBGM = RSE 314 Battle! Frontier Brain
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HUBIAN_POKENGINE_GENTLEMAN]
+Name = Hubian Gentleman 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 11 Cipher Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HUBIAN_POKENGINE_MADAME]
+Name = Hubian Madame
+Gender = Female
+BaseMoney = 100
+BattleBGM = XD 11 Cipher Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[HUBIAN_POKENGINE_RUIN_MANIAC]
+Name = Hubian Ruin Maniac
+Gender = Female
+BaseMoney = 100
+BattleBGM = XD 11 Cipher Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_GSC_GENTLEMAN]
+Name = Johtoian Gentleman 
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_GSC_MOM]
+Name = Mother of Champions
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_BATTLE_GIRL]
+Name = Johtoian Battle Girl 
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_DJ_MARY]
+Name = Radio Celebrity
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 266 Wi-Fi Plaza Plaza Games
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_KURT]
+Name = Poke Ball Smith
+Gender = Male
+BaseMoney = 100
+BattleBGM = PLA 009 Battle! (Pokemon Wielder)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_MAGNUS]
+Name = Pokéathlon Founder
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 244 Pokeathlon Event Time!
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_SKIER]
+Name = Johtoian Skier
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_TWINS]
+Name = Johtoian Twins
+Gender = Female
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_YOUNG_COUPLE]
+Name = Johtoian Young Couple 
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_YOUNGSTER]
+Name = Johtoian Youngster
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_AUGUSTINE_SYCAMORE]
+Name = Pokemon Professor 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 039 Professor Sycamore_s Theme
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_AZ]
+Name = Eternal Wanderer
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon ZA Eternal Flower Battle Fanmade by Raushna
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_CLEMONT]
+Name = Bright Inventor 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 072 Battle! (Successor Korrina)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_FAIRYTALE_GIRL]
+Name = Kaloian Fairy Tale Girl 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_FLARE_GRUNT_MAN]
+Name = Team Flare Grunt
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 080 Battle! (Team Flare)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_FLARE_GRUNT_WOMAN]
+Name = Team Flare Grunt 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 080 Battle! (Team Flare)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_GRANT]
+Name = Collected Climber
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 072 Battle! (Successor Korrina)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_KORINNA]
+Name = Mega Evolution Successor 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 072 Battle! (Successor Korrina)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_LASS]
+Name = Kaloian Lass
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_MADAME]
+Name = Kaloian Madame 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_OLYMPIA]
+Name = Starlight Shaper
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 072 Battle! (Successor Korrina)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_POKEFAN_MAN]
+Name = Kaloian Poke Fan 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_POKEFAN_WOMAN]
+Name = Kaloian Poke Fan 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_POKEMON_RANGER_MAN]
+Name = Kaloian Pokemon Ranger
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_PRESCHOOLER_BOY]
+Name = Kaloian Preschooler
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_PRESCHOOLER_GIRL]
+Name = Kaloian Preschooler 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_RAMOS]
+Name = Caretaker of Plants 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 072 Battle! (Successor Korrina)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_RISINGSTAR_BOY]
+Name = Kaloian Rising Star 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_RISINGSTAR_GIRL]
+Name = Kaloian Rising Star
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_ROLLERSKATER_BOY]
+Name = Kaloian Roller Skater
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_ROLLERSKATER_GIRL]
+Name = Kaloian Roller Skater
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SCHOOL_BOY]
+Name = Kaloian School Boy
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SCHOOL_GIRL]
+Name = Kaloian School Girl 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_SHAUNA]
+Name = Pokemon Trainer 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 011 Battle! (Friend)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_TIERNO]
+Name = Pokemon Trainer 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 011 Battle! (Friend)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_TREVOR]
+Name = Pokemon Trainer 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 011 Battle! (Friend)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_TWINS]
+Name = Kaloian Twins 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_VALERIE]
+Name = Fairy Maiden 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 072 Battle! (Successor Korrina)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_VIOLA]
+Name = Photographer of Joy 
+Gender = Female
+BaseMoney = 100
+BattleBGM = XY 072 Battle! (Successor Korrina)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_WULFRIC]
+Name = Iceburg Furance 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 072 Battle! (Successor Korrina)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KALOIAN_XY_YOUNGSTER]
+Name = Kaloian Youngster
+Gender = Male
+BaseMoney = 100
+BattleBGM = XY 021 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_FRLG_DAISY]
+Name = Pokémon coordinator
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon LGPE OST Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_FRLG_GENTLEMAN]
+Name = Kantoian Gentleman 
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon LGPE OST Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_FRLG_MR_FUJI]
+Name = Caretaker of Pokemon 
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon LGPE OST Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_FRLG_RUIN_MANIAC]
+Name = Kantoian Ruin Maniac
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon LGPE OST Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_HGSS_BILL]
+Name = Pokemon PC Storage Inventor 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 03 Battle SIM
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_BLANNE_SCIENCE]
+Name = Hot Headed Quizzer
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 204 Battle! (Gym Leader Kanto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_BUG_CATCHER]
+Name = Kantoian Bug Catcher 
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon LGPE OST Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_GENTLEMAN]
+Name = Kantoian Gentleman 
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon LGPE OST Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_ROCKER]
+Name = Kantoian Rocker 
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon LGPE OST Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KANTOIAN_LGPE_SUPER_NERD]
+Name = Kantoian Super Nerd 
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon LGPE OST Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[KITAKAMIAN_SV_DELINQUENT]
+Name = Kitakamian Delinquent
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_ACE_TRAINER_WOMAN]
+Name = Paldean Ace Trainer 
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_GEETA]
+Name = Paldea's Top Champion
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV Champion Battle Theme
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_NEMONA]
+Name = Paldean Champion 
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV Champion Nemona Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_RYME]
+Name = The MC of RIP
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV Gym Leader Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_SCHOOLKID_GIRL]
+Name = Paldean Schoolkid 
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PALDEAN_SV_YOUNGSTER]
+Name = Paldean Youngster
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokemon SV Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PASIOIAN_MAEX_COLLECTOR]
+Name = Pasioian Collector
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 11 Cipher Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PASIOIAN_MAEX_PUNK_GIRL]
+Name = Pasioian Punk
+Gender = Female
+BaseMoney = 100
+BattleBGM = XD 11 Cipher Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PASIOIAN_MAEX_STREET_THUG]
+Name = Pasioian Street Thug 
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 11 Cipher Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[PASIOIAN_MAEX_YOUNGSTER]
+Name = Pasioian Youngster
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 11 Cipher Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SEVIIAN_FRLG_CELIO]
+Name = Pokemon PC Storage Programmer
+Gender = Male
+BaseMoney = 100
+BattleBGM = XD 03 Battle SIM
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_CHARON]
+Name = Team Galactic Admin
+Gender = Male	
+BaseMoney = 100
+BattleBGM = DPPT 048 Battle! (Team Galactic Admin)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_JOHANNA]
+Name = Mother of Champions
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_JUPITER]
+Name = Team Galactic Admin
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 048 Battle! (Team Galactic Admin)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_MADAME]
+Name = Sinnohian Madame 
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_MARS]
+Name = Team Galactic Admin
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 048 Battle! (Team Galactic Admin)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_NINJA_BOY]
+Name = Sinnohian Ninja Boy
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_POKEFAN_MAN]
+Name = Sinnohian Poke Fan 
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_POKEFAN_WOMAN]
+Name = Sinnohian Poke Fan 
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ROWAN]
+Name = Pokemon Professor
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SATURN]
+Name = Team Galactic Admin
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 048 Battle! (Team Galactic Admin)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SCHOOLKID_BOY]
+Name = Sinnohian Schoolkid
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SCHOOLKID_GIRL]
+Name = Sinnohian School Kid 
+Gender = Female
+BaseMoney = 100
+BattleBGM = BDPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SKIER_MAN]
+Name = Sinnohian Skier 
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SKIER_WOMAN]
+Name = Sinnohian Skier 
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_SWIMMING_DUO]
+Name = Sinnohian Swimming Duo 
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_TUBER_BOY]
+Name = Sinnohian Tuber
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_TUBER_GIRL]
+Name = Sinnohian Tuber
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_TWINS]
+Name = Sinnohian Twins
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_WESTERN_DUO]
+Name = Sinnohian Western Duo 
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_YOUNG_COUPLE]
+Name = Sinnohian Young Couple 
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_YOUNGSTER]
+Name = Sinnohian Youngster
+Gender = Male
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_DPP_ACE_DUO]
+Name = Sinnohian Ace Duo 
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_ACE_DUO]
+Name = Sinnohian Ace Duo 
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[SINNOHIAN_UNOFFICAL_DPP_CLOWN]
+Name = Sinnohian Clown 
+Gender = Female
+BaseMoney = 100
+BattleBGM = DPPT 023 Battle! (Trainer Battle)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B1W1_MOM]
+Name = Mother of Champions
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_AUREA_JUNIPER]
+Name = Pokemon Professor 
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CEDRIC_JUNIPER]
+Name = Pokemon Professor 
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_CHRISTOPH]
+Name = Pokémon Idol
+Gender = Male
+BaseMoney = 100
+BattleBGM = Pokémon SV Unova Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_COLRESS]
+Name = Pokemon Trainer 
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 302 Battle! (Colress)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_FENNEL]
+Name = Researcher of Dreams
+Gender = Female
+BaseMoney = 100
+BattleBGM = BW 336 Poke Transfer Catch Your Pokemon!
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_GENTLEMAN]
+Name = Unovaian Gentleman 
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_LASS]
+Name = Unovaian Lass
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_MADAME]
+Name = Unovaian Madame 
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_MOM]
+Name = Mother of Champions
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_N]
+Name = Pokemon Trainer 
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 313 Battle! (N)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_NANCY]
+Name = Pokémon Idol
+Gender = Female
+BaseMoney = 100
+BattleBGM = Pokémon SV Unova Trainer Battle
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_NEO_PLASMA_GRUNT_MAN]
+Name = Neo Team Plasma Grunt 
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 233 Battle! (Team Plasma)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_NEO_PLASMA_GRUNT_WOMAN]
+Name = Neo Team Plasma Grunt 
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 233 Battle! (Team Plasma)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_NURSERY_AIDE]
+Name = Unovaian Nursery Aide 
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_POKEFAN_MAN]
+Name = Unovaian Poke Fan 
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_POKEFAN_WOMAN]
+Name = Unovaian Poke Fan
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_PRESCHOOLER_BOY]
+Name = Unovaian Preschooler
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_PRESCHOOLER_GIRL]
+Name = Unovaian Preschooler
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SCHOOLKID_BOY]
+Name = Unovaian Schoolkid
+Gender = Male 
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_SCHOOLKID_GIRL]
+Name = Unovaian Schoolkid 
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_TWINS]
+Name = Unovaian Twins 
+Gender = Female
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAINA_B2W2_ROUGH_DUO]
+Name = Unovaian Rough Duo 
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 139 Battle! (Trainer)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[JOHTOIAN_HGSS_PROFESSOR_ELM]
+Name = Pokemon Professor
+Gender = Male
+BaseMoney = 100
+BattleBGM = HGSS 118 Battle! (Trainer Battle Johto)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------
+[UNOVAIAN_B2W2_HUGH]
+Name = Pokemon Trainer 
+Gender = Male
+BaseMoney = 100
+BattleBGM = B2W2 111 Battle! (Rival)
+VictoryBGM = B2W2 213 Winning in the PWT!
+#-------------------------------

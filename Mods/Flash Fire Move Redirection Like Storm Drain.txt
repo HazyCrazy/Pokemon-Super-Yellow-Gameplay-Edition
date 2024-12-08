@@ -1,0 +1,181 @@
+Battler_UseMoveTargeting
+
+Line 142
+
+Vanilla 
+
+#=============================================================================
+  # Redirect attack to another target
+  #=============================================================================
+  def pbChangeTargets(move, user, targets)
+    target_data = move.pbTarget(user)
+    return targets if @battle.switching   # For Pursuit interrupting a switch
+    return targets if move.cannotRedirect? || move.targetsPosition?
+    return targets if !target_data.can_target_one_foe? || targets.length != 1
+    move.pbModifyTargets(targets, user)   # For Dragon Darts
+    return targets if user.hasActiveAbility?([:PROPELLERTAIL, :STALWART])
+    priority = @battle.pbPriority(true)
+    nearOnly = !target_data.can_choose_distant_target?
+    # Spotlight (takes priority over Follow Me/Rage Powder/Lightning Rod/Storm Drain)
+    newTarget = nil
+    strength = 100   # Lower strength takes priority
+    priority.each do |b|
+      next if b.fainted? || b.effects[PBEffects::SkyDrop] >= 0
+      next if b.effects[PBEffects::Spotlight] == 0 ||
+              b.effects[PBEffects::Spotlight] >= strength
+      next if !b.opposes?(user)
+      next if nearOnly && !b.near?(user)
+      newTarget = b
+      strength = b.effects[PBEffects::Spotlight]
+    end
+    if newTarget
+      PBDebug.log("[Move target changed] #{newTarget.pbThis}'s Spotlight made it the target")
+      targets = []
+      pbAddTarget(targets, user, newTarget, move, nearOnly)
+      return targets
+    end
+    # Follow Me/Rage Powder (takes priority over Lightning Rod/Storm Drain)
+    newTarget = nil
+    strength = 100   # Lower strength takes priority
+    priority.each do |b|
+      next if b.fainted? || b.effects[PBEffects::SkyDrop] >= 0
+      next if b.effects[PBEffects::RagePowder] && !user.affectedByPowder?
+      next if b.effects[PBEffects::FollowMe] == 0 ||
+              b.effects[PBEffects::FollowMe] >= strength
+      next if !b.opposes?(user)
+      next if nearOnly && !b.near?(user)
+      newTarget = b
+      strength = b.effects[PBEffects::FollowMe]
+    end
+    if newTarget
+      PBDebug.log("[Move target changed] #{newTarget.pbThis}'s Follow Me/Rage Powder made it the target")
+      targets = []
+      pbAddTarget(targets, user, newTarget, move, nearOnly)
+      return targets
+    end
+    # Lightning Rod
+    targets = pbChangeTargetByAbility(:LIGHTNINGROD, :ELECTRIC, move, user, targets, priority, nearOnly)
+    # Storm Drain
+    targets = pbChangeTargetByAbility(:STORMDRAIN, :WATER, move, user, targets, priority, nearOnly)
+    return targets
+  end
+  
+Super Yellow 
+
+#=============================================================================
+  # Redirect attack to another target
+  #=============================================================================
+  def pbChangeTargets(move, user, targets)
+    target_data = move.pbTarget(user)
+    return targets if @battle.switching   # For Pursuit interrupting a switch
+    return targets if move.cannotRedirect? || move.targetsPosition?
+    return targets if !target_data.can_target_one_foe? || targets.length != 1
+    move.pbModifyTargets(targets, user)   # For Dragon Darts
+    return targets if user.hasActiveAbility?([:PROPELLERTAIL, :STALWART])
+    priority = @battle.pbPriority(true)
+    nearOnly = !target_data.can_choose_distant_target?
+    # Spotlight (takes priority over Follow Me/Rage Powder/Lightning Rod/Storm Drain)
+    newTarget = nil
+    strength = 100   # Lower strength takes priority
+    priority.each do |b|
+      next if b.fainted? || b.effects[PBEffects::SkyDrop] >= 0
+      next if b.effects[PBEffects::Spotlight] == 0 ||
+              b.effects[PBEffects::Spotlight] >= strength
+      next if !b.opposes?(user)
+      next if nearOnly && !b.near?(user)
+      newTarget = b
+      strength = b.effects[PBEffects::Spotlight]
+    end
+    if newTarget
+      PBDebug.log("[Move target changed] #{newTarget.pbThis}'s Spotlight made it the target")
+      targets = []
+      pbAddTarget(targets, user, newTarget, move, nearOnly)
+      return targets
+    end
+    # Follow Me/Rage Powder (takes priority over Lightning Rod/Storm Drain)
+    newTarget = nil
+    strength = 100   # Lower strength takes priority
+    priority.each do |b|
+      next if b.fainted? || b.effects[PBEffects::SkyDrop] >= 0
+      next if b.effects[PBEffects::RagePowder] && !user.affectedByPowder?
+      next if b.effects[PBEffects::FollowMe] == 0 ||
+              b.effects[PBEffects::FollowMe] >= strength
+      next if !b.opposes?(user)
+      next if nearOnly && !b.near?(user)
+      newTarget = b
+      strength = b.effects[PBEffects::FollowMe]
+    end
+    if newTarget
+      PBDebug.log("[Move target changed] #{newTarget.pbThis}'s Follow Me/Rage Powder made it the target")
+      targets = []
+      pbAddTarget(targets, user, newTarget, move, nearOnly)
+      return targets
+    end
+    # Lightning Rod
+    targets = pbChangeTargetByAbility(:LIGHTNINGROD, :ELECTRIC, move, user, targets, priority, nearOnly)
+    # Storm Drain
+    targets = pbChangeTargetByAbility(:STORMDRAIN, :WATER, move, user, targets, priority, nearOnly)
+	# Flash Fire 
+	targets = pbChangeTargetByAbility(:FLASHFIRE, :FIRE, move, user, targets, priority, nearOnly)
+    return targets
+  end
+  
+Battle_AbilityEffects
+
+Vanilla 
+
+Line 983
+
+Battle::AbilityEffects::MoveImmunity.add(:STORMDRAIN,
+  proc { |ability, user, target, move, type, battle, show_message|
+    next target.pbMoveImmunityStatRaisingAbility(user, move, type,
+       :WATER, :SPECIAL_ATTACK, 1, show_message)
+  }
+)
+
+Line 1167
+
+Battle::AbilityEffects::AccuracyCalcFromTarget.add(:STORMDRAIN,
+  proc { |ability, mods, user, target, move, type|
+    mods[:base_accuracy] = 0 if type == :WATER
+  }
+)
+
+Super Yellow 
+
+Battle::AbilityEffects::MoveImmunity.add(:FLASHFIRE,
+  proc { |ability, user, target, move, type, battle, show_message|
+    next target.pbMoveImmunityStatRaisingAbility(user, move, type,
+       :FIRE, :SPECIAL_ATTACK, 1, show_message)
+  }
+)
+
+Battle::AbilityEffects::AccuracyCalcFromTarget.add(:FLASHFIRE,
+  proc { |ability, mods, user, target, move, type|
+    mods[:base_accuracy] = 0 if type == :FIRE
+  }
+)
+
+abilities.txt
+
+Vanilla 
+#-------------------------------
+[STORMDRAIN]
+Name = Storm Drain
+Description = Draws in all Water-type moves to up Sp. Attack.
+#-------------------------------
+[FLASHFIRE]
+Name = Flash Fire
+Description = It powers up Fire-type moves if it's hit by one.
+#-------------------------------
+
+Super Yellow 
+#-------------------------------
+[STORMDRAIN]
+Name = Storm Drain
+Description = Draws in all Water-type moves to up Sp. Attack.
+#-------------------------------
+[FLASHFIRE]
+Name = Flash Fire
+Description = Draws in all Fire-type moves to up Sp.Attack.
+#-------------------------------

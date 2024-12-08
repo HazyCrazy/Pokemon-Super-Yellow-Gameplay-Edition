@@ -1,0 +1,16 @@
+Poke Gods 
+
+These are Pokemon who can learn every move in the game. Including Gimmick moves. 
+They serve the purpose of the Pokedex Data Page doing it's job of allowing the 
+player to look in game to know what a Move does, rather than Google it every
+5 seconds, the moment they want to do anything that isn't clicking the STAB 
+Attack move. 
+
+Ditto 
+Mewtwo
+Mew
+Unown
+Smeargle
+Arceus
+Silvally
+Terapagos

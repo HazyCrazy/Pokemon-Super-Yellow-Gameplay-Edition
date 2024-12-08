@@ -1,0 +1,36 @@
+Battle_ActionSwitching
+
+CTRL + SHIFT + F: Search
+Type StealthRock or battler.totalhp * eff / 8
+
+Vanilla Stealth Rock
+
+# Stealth Rock
+    if battler_side.effects[PBEffects::StealthRock] && battler.takesIndirectDamage? &&
+       GameData::Type.exists?(:ROCK) && !battler.hasActiveItem?(:HEAVYDUTYBOOTS)
+      bTypes = battler.pbTypes(true)
+      eff = Effectiveness.calculate(:ROCK, *bTypes)
+      if !Effectiveness.ineffective?(eff)
+        battler.pbReduceHP(battler.totalhp * eff / 8, false)
+        pbDisplay(_INTL("Pointed stones dug into {1}!", battler.pbThis))
+        battler.pbItemHPHealCheck
+      end
+    end
+
+Super Yellow Stealth Rock (Makes Stealth Rock damage type netural for all types)
+
+A Stellar Rock hazard will deal 12.5% damage to all Pokemon on switch, regarless of typing
+3 layers of spikes will deal 25% damage to all grounded Pokemon on switch, regarless of typing
+1 layer of spikes is 12.5%, 2 layers of spikes is 16.67%
+	
+# Stellar Rock (With this method, the eff is changed to be just a value of 1 and is divided by 5, rather than 8)
+    if battler_side.effects[PBEffects::StealthRock] && battler.takesIndirectDamage? &&
+       GameData::Type.exists?(:ROCK) && !battler.hasActiveItem?(:HEAVYDUTYBOOTS)
+      bTypes = battler.pbTypes(true)
+      eff = Effectiveness.calculate(:ROCK, *bTypes)
+      if !Effectiveness.ineffective?(eff)
+        battler.pbReduceHP(battler.totalhp * 1 / 8, false)
+        pbDisplay(_INTL("Stellar stones dug into {1}!", battler.pbThis))
+        battler.pbItemHPHealCheck
+      end
+    end

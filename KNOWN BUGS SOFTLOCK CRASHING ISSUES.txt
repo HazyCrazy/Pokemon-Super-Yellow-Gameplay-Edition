@@ -1,0 +1,17 @@
+2.0.0 Pre Patches issues
+
+When using the Type Matchup Lookup feature in battle,
+
+DO NOT USE IT when a Steel type Pokemon is present.
+
+Steel/Dragon type Pokemon, and other unknown Steel Type Combinations cause the game to softlock when viewing their matchup chart.
+This issue will be fixed in future updates, if it is possible.
+
+Calarex Ice and Shadow Rider have a diffuclt to track bug 
+where they learn their Signature Moves upon Dynamxing.
+
+When Dynamaxed by the opponent, the game softlocks.
+2.0.0 Pre Patch has done the process of removing every Calarex's ability to Dynamax 
+in the trainers.txt setup, that I could pick up.
+
+This issue will be fixed in future updates, if it is possible.

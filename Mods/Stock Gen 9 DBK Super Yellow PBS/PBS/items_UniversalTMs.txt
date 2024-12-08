@@ -1,0 +1,682 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[UTM001]
+Name = UTM001
+NamePlural = Tera Blasts
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERABLAST
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM002]
+Name = UTM002
+NamePlural = Attracts
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = ATTRACT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM003]
+Name = UTM003
+NamePlural = Bidess
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = BIDE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM004]
+Name = UTM004
+NamePlural = Captivates
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = CAPTIVATE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM005]
+Name = UTM005
+NamePlural = Celebrates
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = CELEBRATE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM006]
+Name = UTM006
+NamePlural = Charms
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = CHARM
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM007]
+Name = UTM007
+NamePlural = Confides
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = CONFIDE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM008]
+Name = UTM008
+NamePlural = Curses
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = CURSE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM009]
+Name = UTM009
+NamePlural = Detects
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = DETECT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM010]
+Name = UTM010
+NamePlural = Wishes
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = WISH
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM011]
+Name = UTM011
+NamePlural = Egg Bombs
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = EGGBOMB
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM012]
+Name = UTM012
+NamePlural = Endures
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = ENDURE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM013]
+Name = UTM013
+NamePlural = False Swipes
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = FALSESWIPE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM014]
+Name = UTM014
+NamePlural = Facades
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = FACADE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM015]
+Name = UTM015
+NamePlural = Flatters 
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = FLATTER
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM016]
+Name = UTM016
+NamePlural = Flings
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = FLING
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM017]
+Name = UTM017
+NamePlural = Frustrations
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = FRUSTRATION
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM018]
+Name = UTM018
+NamePlural = Headbutts
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = HEADBUTT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM019]
+Name = UTM019
+NamePlural = Hidden Forces
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = HIDDENFORCE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM020]
+Name = UTM020
+NamePlural = Hidden Powers
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = HIDDENPOWER
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM021]
+Name = UTM021
+NamePlural = Hold Backs
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = HOLDBACK
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM022]
+Name = UTM022
+NamePlural = Hold Hands
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = HOLDHANDS
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM023]
+Name = UTM023
+NamePlural = Metronomes
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = METRONOME
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM024]
+Name = UTM024
+NamePlural = Natural gifts
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = NATURALGIFT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM025]
+Name = UTM025
+NamePlural = Nature Powers
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = NATUREPOWER
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM026]
+Name = UTM026
+NamePlural = Play Nices
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = PLAYNICE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM027]
+Name = UTM027
+NamePlural = Power Shifts
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = POWERSHIFT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM028]
+Name = UTM028
+NamePlural = Power Splits
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = POWERSPLIT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM029]
+Name = UTM029
+NamePlural = Power Swaps
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = POWERSWAP
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM030]
+Name = UTM030
+NamePlural = Power Tricks 
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = POWERTRICK
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM031]
+Name = UTM031
+NamePlural = Presents
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = FINALGAMBIT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM032]
+Name = UTM032
+NamePlural = Protects
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = PROTECT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM033]
+Name = UTM033
+NamePlural = Reflect Types
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = REFLECTTYPE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM034]
+Name = UTM034
+NamePlural = Rests
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = REST
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM035]
+Name = UTM035
+NamePlural = Returns
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = RETURN
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM036]
+Name = UTM036
+NamePlural = Secret Powers
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = SECRETPOWER
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM037]
+Name = UTM037
+NamePlural = Slack Offs
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = SLACKOFF
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM038]
+Name = UTM038
+NamePlural = Toxics
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TOXIC
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM039]
+Name = UTM039
+NamePlural = Lucky Chants
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = LUCKYCHANT
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM040]
+Name = UTM040
+NamePlural = Splashs
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = SPLASH
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM041]
+Name = UTM041
+NamePlural = Substitutes
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = SUBSTITUTE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM042]
+Name = UTM042
+NamePlural = Swaggers
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = SWAGGER
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM043]
+Name = UTM043
+NamePlural = Synchronoises
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = SYNCHRONOISE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM044]
+Name = UTM044
+NamePlural = Terrain pulses
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERRAINPULSE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM045]
+Name = UTM045
+NamePlural = Weather balls
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = WEATHERBALL
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM046]
+Name = UTM046
+NamePlural = Workups
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = WORKUP
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM047]
+Name = UTM047
+NamePlural = Court Changes
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = COURTCHANGE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM048]
+Name = UTM048
+NamePlural = Bestows
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = BESTOW
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM049]
+Name = UTM049
+NamePlural = Comeuppances
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = COMEUPPANCE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[UTM050]
+Name = UTM050
+NamePlural = Hazes
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = HAZE
+Flags = Fling_90
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM01]
+Name = HPTM01
+NamePlural = HP Normals
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERANORMAL
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM02]
+Name = HPTM02
+NamePlural = HP Fires
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAFIRE
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM03]
+Name = HPTM03
+NamePlural = HP Fightings
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAFIGHTING
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM04]
+Name = HPTM04
+NamePlural = HP Waters
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAWATER
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM05]
+Name = HPTM05
+NamePlural = HP Flyings
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAFLYING
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM06]
+Name = HPTM06
+NamePlural = HP Grasss
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAGRASS
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM07]
+Name = HPTM07
+NamePlural = HP Poisons
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAPOISON
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM08]
+Name = HPTM08
+NamePlural = HP Electrics
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAELECTRIC
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM09]
+Name = HPTM09
+NamePlural = HP Grounds
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAGROUND
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM10]
+Name = HPTM10
+NamePlural = HP Psychics
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAPSYCHIC
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM11]
+Name = HPTM11
+NamePlural = HP Rocks
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAROCK
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM12]
+Name = HPTM12
+NamePlural = HP Ices
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAICE
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM13]
+Name = HPTM13
+NamePlural = HP Bugs
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERABUG
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM14]
+Name = HPTM14
+NamePlural = HP Dragons
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERADRAGON
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM15]
+Name = HPTM15
+NamePlural = HP Ghosts
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAGHOST
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM16]
+Name = HPTM16
+NamePlural = HP Darkss
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERADARK
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM17]
+Name = HPTM17
+NamePlural = HP Steels
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERASTEEL
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------
+[HPTM18]
+Name = HPTM18
+NamePlural = Hp Fairies
+Pocket = 4
+Price = 10000
+FieldUse = TR
+Move = TERAFAIRY
+Flags = Fling_100
+Description = This Special Technical Record can be taught to any Pokémon.
+#-------------------------------

@@ -1,0 +1,59 @@
+Removes the dumb cannot be airborne requirement to power up Expanding Force in Psychic Terrain 
+
+MoveEffects_ChangeMoveEffect
+
+Vanilla
+
+#===============================================================================
+# If Psychic Terrain applies and the user is grounded, power is multiplied by
+# 1.5 (in addition to Psychic Terrain's multiplier) and it targets all opposing
+# Pokémon. (Expanding Force)
+#===============================================================================
+class Battle::Move::HitsAllFoesAndPowersUpInPsychicTerrain < Battle::Move
+  def pbTarget(user)
+    if @battle.field.terrain == :Psychic && user.affectedByTerrain?
+      return GameData::Target.get(:AllNearFoes)
+    end
+    return super
+  end
+
+  def pbBaseDamage(baseDmg, user, target)
+    if @battle.field.terrain == :Psychic && user.affectedByTerrain?
+      baseDmg = baseDmg * 3 / 2
+    end
+    return baseDmg
+  end
+end
+
+Super Yellow 
+
+#===============================================================================
+# If Psychic Terrain applies and the user is grounded, power is multiplied by
+# 1.5 (in addition to Psychic Terrain's multiplier) and it targets all opposing
+# Pokémon. (Expanding Force)
+#===============================================================================
+class Battle::Move::HitsAllFoesAndPowersUpInPsychicTerrain < Battle::Move
+  def pbTarget(user)
+    if @battle.field.terrain == :Psychic
+      return GameData::Target.get(:AllNearFoes)
+    end
+    return super
+  end
+
+  def pbBaseDamage(baseDmg, user, target)
+    if @battle.field.terrain == :Psychic
+      baseDmg = baseDmg * 3 / 2
+    end
+    return baseDmg
+  end
+end
+
+#===============================================================================
+# Power is doubled if Electric Terrain applies. (Rising Voltage)
+#===============================================================================
+class Battle::Move::DoublePowerInElectricTerrain < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    baseDmg *= 2 if @battle.field.terrain == :Electric
+    return baseDmg
+  end
+end

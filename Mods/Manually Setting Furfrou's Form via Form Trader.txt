@@ -1,0 +1,42 @@
+Vanilla 
+
+FormHandlers
+
+Line 422
+
+MultipleForms.register(:FURFROU, {
+  "getForm" => proc { |pkmn|
+    if !pkmn.time_form_set ||
+       pbGetTimeNow.to_i > pkmn.time_form_set.to_i + (60 * 60 * 24 * 5)   # 5 days
+      next 0
+    end
+  },
+  "onSetForm" => proc { |pkmn, form, oldForm|
+    pkmn.time_form_set = (form > 0) ? pbGetTimeNow.to_i : nil
+  }
+})
+
+MultipleForms.register(:ESPURR, {
+  "getForm" => proc { |pkmn|
+    next pkmn.gender
+  }
+})
+
+Super Yellow
+
+Turned off, because I hate Pokemon Form's where the specices decides what form it is, if it's not a regional form.
+Pair this change with the Form Trader plugin, because I hate getting Pokemon with multiple forms.
+
+#MultipleForms.register(:FURFROU, {
+  #"getForm" => proc { |pkmn|
+    #if !pkmn.time_form_set ||
+       #pbGetTimeNow.to_i > pkmn.time_form_set.to_i + (60 * 60 * 24 * 5)   # 5 days
+      #next 0
+    #end
+  #},
+  #"onSetForm" => proc { |pkmn, form, oldForm|
+    #pkmn.time_form_set = (form > 0) ? pbGetTimeNow.to_i : nil
+  #}
+#})
+
+ 

@@ -1,0 +1,61 @@
+Battle_AbilityEffects
+
+Vanilla
+
+Line 1369 (Cuts the Base Attack Stat in half)
+
+Battle::AbilityEffects::DamageCalcFromUser.add(:SLOWSTART,
+  proc { |ability, user, target, move, mults, power, type|
+    mults[:attack_multiplier] /= 2 if user.effects[PBEffects::SlowStart] > 0 && move.physicalMove?
+  }
+)
+
+Line 3032 (Slow Start lasts 5 turns. Way too long for a Single or Double Battle)
+
+Battle::AbilityEffects::OnSwitchIn.add(:SLOWSTART,
+  proc { |ability, battler, battle, switch_in|
+    battle.pbShowAbilitySplash(battler)
+    battler.effects[PBEffects::SlowStart] = 5
+    if Battle::Scene::USE_ABILITY_SPLASH
+      battle.pbDisplay(_INTL("{1} can't get it going!", battler.pbThis))
+    else
+      battle.pbDisplay(_INTL("{1} can't get it going because of its {2}!",
+         battler.pbThis, battler.abilityName))
+    end
+    battle.pbHideAbilitySplash(battler)
+  }
+)
+
+Super Yellow
+
+Line 1369 (Does not cut the Base Attack Stat in half. Base Speed is still cut in half)
+
+Battle::AbilityEffects::DamageCalcFromUser.add(:SLOWSTART,
+  proc { |ability, user, target, move, mults, power, type|
+    mults[:attack_multiplier] *= 1 if user.effects[PBEffects::SlowStart] > 0 && move.physicalMove?
+  }
+)
+
+Line 3032 (Slow Start lasts 3 turns. In a Double Battle, anything longer than 2 turns wastes too much time. 3 Turns is to allow Slow Start Users to act as a unique user of Trick Room)
+
+Battle::AbilityEffects::OnSwitchIn.add(:SLOWSTART,
+  proc { |ability, battler, battle, switch_in|
+    battle.pbShowAbilitySplash(battler)
+    battler.effects[PBEffects::SlowStart] = 3
+    if Battle::Scene::USE_ABILITY_SPLASH
+      battle.pbDisplay(_INTL("{1} can't get it going!", battler.pbThis))
+    else
+      battle.pbDisplay(_INTL("{1} can't get it going because of its {2}!",
+         battler.pbThis, battler.abilityName))
+    end
+    battle.pbHideAbilitySplash(battler)
+  }
+)
+
+abilities.txt Slow Start description
+
+#-------------------------------
+[SLOWSTART]
+Name = Slow Start
+Description = Halves Speed for 3 turns.
+#-------------------------------

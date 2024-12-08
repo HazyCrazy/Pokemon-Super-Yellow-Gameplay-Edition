@@ -1,0 +1,59 @@
+MoveEffects_ChangeMoveEffect
+
+Vanilla 
+
+#===============================================================================
+# Counters the last damaging move used against the user this round, with 1.5x
+# the power. (Metal Burst)
+#===============================================================================
+class Battle::Move::CounterDamagePlusHalf < Battle::Move::FixedDamageMove
+  def pbAddTarget(targets, user)
+    return if user.lastFoeAttacker.length == 0
+    lastAttacker = user.lastFoeAttacker.last
+    return if lastAttacker < 0 || !user.opposes?(lastAttacker)
+    user.pbAddTarget(targets, user, @battle.battlers[lastAttacker], self, false)
+  end
+
+  def pbMoveFailed?(user, targets)
+    if targets.length == 0
+      @battle.pbDisplay(_INTL("But there was no target..."))
+      return true
+    end
+    return false
+  end
+
+  def pbFixedDamage(user, target)
+    dmg = (user.lastHPLostFromFoe * 1.5).floor
+    dmg = 1 if dmg == 0
+    return dmg
+  end
+end
+
+Super Yellow 
+
+#===============================================================================
+# Counters the last damaging move used against the user this round, with 2x
+# the power. (Metal Burst + Comeuppance)
+#===============================================================================
+class Battle::Move::CounterDamagePlusHalf < Battle::Move::FixedDamageMove
+  def pbAddTarget(targets, user)
+    return if user.lastFoeAttacker.length == 0
+    lastAttacker = user.lastFoeAttacker.last
+    return if lastAttacker < 0 || !user.opposes?(lastAttacker)
+    user.pbAddTarget(targets, user, @battle.battlers[lastAttacker], self, false)
+  end
+
+  def pbMoveFailed?(user, targets)
+    if targets.length == 0
+      @battle.pbDisplay(_INTL("But there was no target..."))
+      return true
+    end
+    return false
+  end
+
+  def pbFixedDamage(user, target)
+    dmg = (user.lastHPLostFromFoe * 2).floor
+    dmg = 1 if dmg == 0
+    return dmg
+  end
+end

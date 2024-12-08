@@ -1,0 +1,33 @@
+Battle_ItemEffects
+
+Vanilla Eviolite
+
+Line 1134
+
+Battle::ItemEffects::DamageCalcFromTarget.add(:EVIOLITE,
+  proc { |item, user, target, move, mults, power, type|
+    # NOTE: Eviolite cares about whether the Pokémon itself can evolve, which
+    #       means it also cares about the Pokémon's form. Some forms cannot
+    #       evolve even if the species generally can, and such forms are not
+    #       affected by Eviolite.
+    if target.pokemon.species_data.get_evolutions(true).length > 0
+      mults[:defense_multiplier] *= 1.5
+    end
+  }
+)
+
+Super Yellow, Make Eevium Z act as an Eviolite (Z Moves are an addon resource, so not in native Pokemon Essentials. For suitations like this, I prefer adding in the additions directly into Essentials itself)
+
+Placed near where Line 1134 is
+
+Battle::ItemEffects::DamageCalcFromTarget.add(:EEVIUMZ,
+  proc { |item, user, target, move, mults, power, type|
+    # NOTE: Eviolite cares about whether the Pokémon itself can evolve, which
+    #       means it also cares about the Pokémon's form. Some forms cannot
+    #       evolve even if the species generally can, and such forms are not
+    #       affected by Eviolite.
+    if target.pokemon.species_data.get_evolutions(true).length > 0
+      mults[:defense_multiplier] *= 1.5
+    end
+  }
+)

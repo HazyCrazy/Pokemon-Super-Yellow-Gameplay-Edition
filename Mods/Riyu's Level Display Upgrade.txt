@@ -1,0 +1,29 @@
+Vanilla (Battle_Scene_Objects)
+
+def draw_level
+    # "Lv" graphic
+    pbDrawImagePositions(self.bitmap, [[_INTL("Graphics/UI/Battle/overlay_lv"), @spriteBaseX + 140, 16]])
+    # Level number
+    pbDrawNumber(@battler.level, self.bitmap, @spriteBaseX + 162, 16)
+  end 
+
+Modded
+
+# Riru's Upgraded Level Display
+LEVEL_BASE_COLOR              = Color.new(255, 255, 255)
+LEVEL_SHADOW_COLOR            = Color.new(0, 0, 0)
+#Change these to whatever they are on your Switch/Variable list in RPG Maker XP.
+UpgradedLvDisplaySwitchID = 129
+UpgradedLvDisplayVarID    = 231
+
+  def draw_level
+    # "Lv" graphic
+    pbDrawTextPositions(self.bitmap, [["Lv.", @spriteBaseX + 136, 11, :left, LEVEL_BASE_COLOR, LEVEL_SHADOW_COLOR]])
+    # Level number
+    if $game_switches[UpgradedLvDisplaySwitchID] && @battler.opposes?
+        pbDrawTextPositions(self.bitmap, [[$game_variables[UpgradedLvDisplayVarID], @spriteBaseX + 168, 11, :left,
+        LEVEL_BASE_COLOR, LEVEL_SHADOW_COLOR]])
+    else
+        pbDrawTextPositions(self.bitmap, [[@battler.level.to_s, @spriteBaseX + 168, 11, :left, LEVEL_BASE_COLOR, LEVEL_SHADOW_COLOR]])
+    end
+  end

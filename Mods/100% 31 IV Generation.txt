@@ -1,0 +1,25 @@
+Script Editor
+Pokemon.rb 
+Go to around Line 1195
+
+change the following:
+
+# @iv[s.id]       = rand(IV_STAT_LIMIT + 1)
+
+to the following:
+
+@iv[s.id]       = 31
+
+If you dispise the crap that is enabled by random IV generation like I do,
+use this tweak to make every Pokemon you catch not be disposable the second they are not the best stock.
+
+If you do this and your fan game uses Hidden Power, you are going to need Independent Hidden Power Type by DemICE.
+It is possible to get it working for v21.1 at a basic level.
+https://eeveeexpo.com/resources/1235/
+
+And this is a very small tweak to EV's:
+
+# Max total EVs (A basic optimal EV spread is now 256/252/4 or 256/256)
+EV_LIMIT      = 512
+# Max EVs that a single stat can have
+EV_STAT_LIMIT = 256

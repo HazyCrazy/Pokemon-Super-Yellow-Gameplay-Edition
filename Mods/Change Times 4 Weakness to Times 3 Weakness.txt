@@ -1,0 +1,13 @@
+Script Editor
+Type.rb 
+Go to Line 77
+
+SUPER_EFFECTIVE               = 3 #4
+
+SUPER_EFFECTIVE kicks in for Pokemon with a double type weakness, not for a single type weakness.
+NORMAL_EFFECTIVE is for a single type weakness. DO NOT CHANGE THIS
+
+I for my projects like setting the double weak multiplier to times 3,
+because I have revamped the Base Stat Totals, type chart matchups and move pools of all Pokemon up to Gen 9.
+It's up to you and your own design goals if you want double type weaknesses to be Times 4 or Times 3.
+An important note: Legends Arceus uses 2.5 for a double weak Pokemon. Once again, it's up to you. 

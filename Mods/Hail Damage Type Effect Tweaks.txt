@@ -1,0 +1,25 @@
+Battle_Battler
+
+Vanilla (Only Ice types don't take Hail/Snow damage)
+
+def takesHailDamage?
+    return false if !takesIndirectDamage?
+    return false if pbHasType?(:ICE)
+    return false if inTwoTurnAttack?("TwoTurnAttackInvulnerableUnderground",
+                                     "TwoTurnAttackInvulnerableUnderwater")
+    return false if hasActiveAbility?([:OVERCOAT, :ICEBODY, :SNOWCLOAK])
+    return false if hasActiveItem?(:SAFETYGOGGLES)
+    return true
+  end
+  
+Tweaked (Ice, Fire and Fighting types don't take Hail/Snow damage)
+
+def takesHailDamage?
+    return false if !takesIndirectDamage?
+    return false if pbHasType?(:ICE) || pbHasType?(:FIRE) || pbHasType?(:FIGHTING)
+    return false if inTwoTurnAttack?("TwoTurnAttackInvulnerableUnderground",
+                                     "TwoTurnAttackInvulnerableUnderwater")
+    return false if hasActiveAbility?([:OVERCOAT, :ICEBODY, :SNOWCLOAK])
+    return false if hasActiveItem?(:SAFETYGOGGLES)
+    return true
+  end

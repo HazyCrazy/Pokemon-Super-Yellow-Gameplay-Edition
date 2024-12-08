@@ -1,0 +1,46 @@
+Custom Ability
+Sea Guardian 
+
+Sets Tailwind on Entry, Gives Psychic/Flying STAB
+Lugia in Super Yellow is now a Dragon/Water type 
+
+abilities_SY_Pack.txt
+
+#-------------------------------
+[SEAGUARDIAN]
+Name = Sea Guardian
+Description = Tailwind on Entry, Psychic/Flying STAB.
+#-------------------------------
+
+Battle_AbilityEffects
+
+Battle::AbilityEffects::DamageCalcFromUser.add(:SEAGUARDIAN,
+  proc { |ability, user, target, move, mults, power, type|
+    mults[:attack_multiplier] *= 1.5 if type == :PSYCHIC
+  }
+)
+
+Battle::AbilityEffects::DamageCalcFromUser.add(:SEAGUARDIAN,
+  proc { |ability, user, target, move, mults, power, type|
+    mults[:attack_multiplier] *= 1.5 if type == :FLYING
+  }
+)
+
+Battle::AbilityEffects::OnSwitchIn.add(:SEAGUARDIAN,
+  proc { |ability, battler, battle, switch_in|
+    def pbEffectGeneral(user)
+	  user.pbOwnSide.effects[PBEffects::Tailwind] = 4
+	  @battle.pbDisplay(_INTL("The Tailwind blew from behind {1}!", user.pbTeam(true)))
+    end
+  }
+)
+
+abilities_SY_Pack.txt
+
+# See the documentation on the wiki to learn how to edit this file.
+# Wiki Link: https://essentialsengine.miraheze.org/wiki/Essentials_Engine_wiki
+#-------------------------------
+[SEAGUARDIAN]
+Name = Sea Guardian
+Description = Tailwind on Entry, Psychic/Flying STAB.
+#-------------------------------

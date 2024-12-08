@@ -1,0 +1,47 @@
+Battler_Statuses Vanilla
+
+Line 384
+
+  #=============================================================================
+  # Freeze
+  #=============================================================================
+  def frozen?
+    return pbHasStatus?(:FROZEN)
+  end
+
+  def pbCanFreeze?(user, showMessages, move = nil)
+    return pbCanInflictStatus?(:FROZEN, user, showMessages, move)
+  end
+
+  def pbFreeze(msg = nil)
+    pbInflictStatus(:FROZEN, 0, msg)
+  end
+  
+
+Battler_Statuses Super Yellow
+
+Line 384
+
+  #=============================================================================
+  # Freeze
+  #=============================================================================
+  def frozen?
+    return pbHasStatus?(:FROZEN)
+  end
+
+  def pbCanFreeze?(user, showMessages, move = nil)
+    return pbCanInflictStatus?(:FROZEN, user, showMessages, move)
+  end
+
+  def pbFreeze(msg = nil)
+    pbInflictStatus(:FROZEN, 0, msg, user)
+  end
+  
+Battle_ItemEffects Super Yellow (This change expects you to use the Frostbite status condition)
+
+Battle::ItemEffects::EndOfRoundEffect.add(:NEVERMELTICE,
+  proc { |item, battler, battle|
+    next if !battler.pbCanFreeze?(battler, false)
+    battler.pbFreeze(nil, _INTL("{1} was frostbitten by the {2}!", battler.pbThis, battler.itemName))
+  }
+)

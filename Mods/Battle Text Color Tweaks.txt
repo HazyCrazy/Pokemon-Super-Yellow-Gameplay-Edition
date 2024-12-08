@@ -1,0 +1,5 @@
+Battle_Scene_Objects
+
+# Text colors
+NAME_BASE_COLOR         = Color.new(248,248,248) # Color.new(72, 72, 72)
+NAME_SHADOW_COLOR       = Color.new(72,72,72) # Color.new(184, 184, 184)

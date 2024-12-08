@@ -1,0 +1,169 @@
+FormHandlers
+
+Vanilla
+
+MultipleForms.register(:GIRATINA, {
+  "getForm" => proc { |pkmn|
+    next 1 if pkmn.hasItem?(:GRISEOUSORB)
+    next 1 if $game_map&.metadata&.has_flag?("DistortionWorld")
+    next 0
+  }
+})
+
+Genration 9 Resource Pack
+
+[000] Pokemon.rb
+
+Line 365, Do not touch
+
+#-------------------------------------------------------------------------------
+# Dialga - Origin Forme.
+#-------------------------------------------------------------------------------
+MultipleForms.register(:DIALGA, {
+  "getForm" => proc { |pkmn|
+    next 1 if pkmn.hasItem?(:ADAMANTCRYSTAL)
+    next 0
+  }
+})
+
+#-------------------------------------------------------------------------------
+# Palkia - Origin Forme.
+#-------------------------------------------------------------------------------
+MultipleForms.register(:PALKIA, {
+  "getForm" => proc { |pkmn|
+    next 1 if pkmn.hasItem?(:LUSTROUSGLOBE)
+    next 0
+  }
+})
+
+#-------------------------------------------------------------------------------
+# Giratina - Origin Forme.
+#-------------------------------------------------------------------------------
+MultipleForms.register(:GIRATINA, {
+  "getForm" => proc { |pkmn|
+    next 1 if pkmn.hasItem?(:GRISEOUSCORE)
+    next 1 if Settings::MECHANICS_GENERATION < 9 && pkmn.hasItem?(:GRISEOUSORB)
+    if $game_map &&
+       GameData::MapMetadata.try_get($game_map.map_id)&.has_flag?("DistortionWorld")
+      next 1
+    end
+    next 0
+  }
+})
+
+Super Yellow
+
+Genration 9 Resource Pack
+
+[000] Pokemon.rb
+
+#-------------------------------------------------------------------------------
+# Dialga - Origin Forme.
+#-------------------------------------------------------------------------------
+MultipleForms.register(:DIALGA, {
+  "getForm" => proc { |pkmn|
+    next 1 if pkmn.hasItem?(:ADAMANTCRYSTAL)
+	next 1 if Settings::MECHANICS_GENERATION < 9 && pkmn.hasItem?(:ADAMANTORB)
+    next 0
+  }
+})
+
+#-------------------------------------------------------------------------------
+# Palkia - Origin Forme.
+#-------------------------------------------------------------------------------
+MultipleForms.register(:PALKIA, {
+  "getForm" => proc { |pkmn|
+    next 1 if pkmn.hasItem?(:LUSTROUSGLOBE)
+	next 1 if Settings::MECHANICS_GENERATION < 9 && pkmn.hasItem?(:LUSTROUSORB)
+    next 0
+  }
+})
+
+MultipleForms.register(:GIRATINA, {
+  "getForm" => proc { |pkmn|
+    #next 1 if pkmn.hasItem?(:GRISEOUSORB)
+    next 1 if $game_map&.metadata&.has_flag?("DistortionWorld")
+    next 0
+  }
+})
+
+Item_Effects
+
+ItemHandlers::UseOnPokemon.add(:ADAMANTORB, proc { |item, qty, pkmn, scene|
+  if !pkmn.isSpecies?(:DIALGA)
+    scene.pbDisplay(_INTL("It had no effect."))
+    next false
+  elsif pkmn.fainted?
+    scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+    next false
+  end
+  newForm = (pkmn.form == 0) ? 1 : 0
+  pkmn.setForm(newForm) do
+    scene.pbRefresh
+    scene.pbDisplay(_INTL("{1} changed Forme!", pkmn.name))
+  end
+  next true
+})
+
+ItemHandlers::UseOnPokemon.add(:LUSTROUSORB, proc { |item, qty, pkmn, scene|
+  if !pkmn.isSpecies?(:PALKIA)
+    scene.pbDisplay(_INTL("It had no effect."))
+    next false
+  elsif pkmn.fainted?
+    scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+    next false
+  end
+  newForm = (pkmn.form == 0) ? 1 : 0
+  pkmn.setForm(newForm) do
+    scene.pbRefresh
+    scene.pbDisplay(_INTL("{1} changed Forme!", pkmn.name))
+  end
+  next true
+})
+
+ItemHandlers::UseOnPokemon.add(:GRISEOUSORB, proc { |item, qty, pkmn, scene|
+  if !pkmn.isSpecies?(:GIRATINA)
+    scene.pbDisplay(_INTL("It had no effect."))
+    next false
+  elsif pkmn.fainted?
+    scene.pbDisplay(_INTL("This can't be used on the fainted Pokémon."))
+    next false
+  end
+  newForm = (pkmn.form == 0) ? 1 : 0
+  pkmn.setForm(newForm) do
+    scene.pbRefresh
+    scene.pbDisplay(_INTL("{1} changed Forme!", pkmn.name))
+  end
+  next true
+})
+
+items.txt
+
+#-------------------------------
+[ADAMANTORB]
+Name = Adamant Orb
+NamePlural = Adamant Orbs
+Pocket = 6
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A brightly gleaming orb that toggles Dialga's Altered and Origin Form.
+#-------------------------------
+[LUSTROUSORB]
+Name = Lustrous Orb
+NamePlural = Lustrous Orbs
+Pocket = 6
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A beautifully glowing orb that toggles Palkia's Altered and Origin Form.
+#-------------------------------
+[GRISEOUSORB]
+Name = Griseous Orb
+NamePlural = Griseous Orbs
+Pocket = 6
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = A glowing orb that that toggles Giratina's Altered and Origin Form.
+#-------------------------------

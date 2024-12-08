@@ -1,0 +1,10 @@
+#-------------------------------
+[PORTABLEWARDROBE]
+Name = Portable Wardrobe
+NamePlural = Portable Wardrobes
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A fully sized wardrobe that lets a trainer freely change their appearance.
+#-------------------------------

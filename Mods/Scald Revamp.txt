@@ -1,0 +1,17 @@
+MoveEffects_BattlerOther
+
+Line 321 is where how Freeze Dry works is roughly 
+
+Add this to the Burn status section.
+
+This covers working for the player, not the enemy AI.
+
+#===============================================================================
+# Burns the target. Effectiveness against Ice-type is 2x. (Scald)
+#===============================================================================
+class Battle::Move::ButnTargetSuperEffectiveAgainstIce < Battle::Move::BurnTarget
+  def pbCalcTypeModSingle(moveType, defType, user, target)
+    return Effectiveness::SUPER_EFFECTIVE_MULTIPLIER if defType == :ICE
+    return super
+  end
+end

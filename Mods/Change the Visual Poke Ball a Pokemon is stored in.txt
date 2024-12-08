@@ -1,0 +1,37 @@
+UI_Party
+
+Script made by: 
+Halily
+TAAAAAAA
+
+Resource Link: https://eeveeexpo.com/resources/1569/
+
+MenuHandlers.add(:party_menu, :change_ball, {
+  "name"      => _INTL("Ball"),
+  "order"     => 35,
+  "condition" => proc { |screen, party, party_idx| next !party[party_idx].egg? && !party[party_idx].mail },
+  "effect"    => proc { |screen, party, party_idx|
+    balls = $bag.pockets[3].map { |ball| GameData::Item.try_get(ball[0]) }
+    if balls.empty?
+      pbMessage(_INTL("You don't have any balls in your bag."))
+      next
+    end
+    balls.sort_by! { |ball| ball.name }
+    commands = balls.map { |ball| ball.name }
+    pkmn = party[party_idx]
+    current_ball_id = pkmn.poke_ball
+    current_ball_name = GameData::Item.try_get(current_ball_id)&.name
+    current_cmd = balls.index { |ball| ball.id == current_ball_id } || 0
+    selected_cmd = screen.pbShowCommands(_INTL("Select a ball to swap.\nCurrent：{1}", current_ball_name), commands, current_cmd)
+    next if selected_cmd < 0
+    new_ball = balls[selected_cmd]
+    if new_ball.id == current_ball_id
+      pbMessage(_INTL("The ball you have selected is the same as the current ball."))
+      next
+    end
+    $bag.remove(new_ball.id)
+    pkmn.poke_ball = new_ball.id
+    pbMessage(_INTL("The Pokemon's ball was changed to {1}.", new_ball.name))
+    screen.pbRefreshSingle(party_idx)
+  }
+})

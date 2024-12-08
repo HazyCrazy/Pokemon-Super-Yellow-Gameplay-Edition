@@ -1,0 +1,44 @@
+Script Editor
+Item Effects 
+
+CTRL+SHIFT+F
+search ABILITYCAPSULE
+
+Change the Ability Patch's Item Handler code to this: (The # are the old code, if you need to revert, or don't want Pokemon to be able to choose 1 out of 4 abilities)
+
+ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE, proc { |item, qty, pkmn, scene|
+    if scene.pbConfirm(_INTL("Do you want to change {1}'s Ability?", pkmn.name))
+    abils = pkmn.getAbilityList
+    ability_commands = []
+    abil_cmd = 0
+    for i in abils
+      ability_commands.push(((i[1] < 2) ? "" : "(H) ") + GameData::Ability.get(i[0]).name)
+    end
+    cmd= pbMessage("Which ability do you want for your Pokémon?",ability_commands,0,nil,0)
+    pkmn.ability = abils[cmd][0]
+    end
+    #if scene.pbConfirm(_INTL("Do you want to change {1}'s Ability?", pkmn.name))
+    #abils = pkmn.getAbilityList
+    #abil1 = nil
+    #abil2 = nil
+    #abils.each do |i|
+      #abil1 = i[0] if i[1] == 0
+      #abil2 = i[0] if i[1] == 1
+    #end
+    #if abil1.nil? || abil2.nil? || pkmn.hasHiddenAbility? || pkmn.isSpecies?(:ZYGARDE)
+      #scene.pbDisplay(_INTL("It won't have any effect."))
+      #next false
+    #end
+    #newabil = (pkmn.ability_index + 1) % 2
+    #newabilname = GameData::Ability.get((newabil == 0) ? abil1 : abil2).name
+    #pkmn.ability_index = newabil
+    #pkmn.ability = nil
+    #scene.pbRefresh
+    #scene.pbDisplay(_INTL("{1}'s Ability changed! Its Ability is now {2}!", pkmn.name, newabilname))
+    #next true
+  #end
+  #next false
+})
+
+Simply put, having just 1 more in the capacity of abilities a Pokemon can learn,
+makes it way easier to give a Pokemon better abilities for utility, battles and that suit the Pokemon 

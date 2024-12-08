@@ -1,0 +1,124 @@
+MoveEffects_BattlerOther
+
+Vanilla
+
+#===============================================================================
+# Badly poisons the target. (Poison Fang, Toxic)
+#===============================================================================
+class Battle::Move::BadPoisonTarget < Battle::Move::PoisonTarget
+  def initialize(battle, move)
+    super
+    @toxic = true
+  end
+
+  def pbOverrideSuccessCheckPerHit(user, target)
+    return (Settings::MORE_TYPE_EFFECTS && statusMove? && user.pbHasType?(:POISON))
+  end
+end
+
+Super Yellow
+
+These are now the moves that will have 100% accuracy when used by a Pokemon type:
+
+Toxic (Already in the offical games)
+Thunder Wave (100% accuracy when used by an Electric type Pokemon)
+Will O Wisp (100% accuracy when used by an Fire type Pokemon)
+Chill O Wisp (100% accuracy when used by an Ice type Pokemon. Super Yellow uses the Frostbite status. Chill O Wisp is a custom move)
+Supersonic (100% accuracy when used by an Normal type Pokemon)
+
+#===============================================================================
+# Paralyzes the target. Doesn't affect target if move's type has no effect on
+# it. (Thunder Wave)
+#===============================================================================
+class Battle::Move::ParalyzeTargetIfNotTypeImmune < Battle::Move::ParalyzeTarget
+  def pbFailsAgainstTarget?(user, target, show_message)
+    if Effectiveness.ineffective?(target.damageState.typeMod)
+      @battle.pbDisplay(_INTL("It doesn't affect {1}...", target.pbThis(true))) if show_message
+      return true
+    end
+    return super
+  end
+  
+  def pbOverrideSuccessCheckPerHit(user, target)
+    return (Settings::MORE_TYPE_EFFECTS && statusMove? && user.pbHasType?(:ELECTRIC))
+  end
+end
+
+#===============================================================================
+# Burns the target.
+#===============================================================================
+class Battle::Move::BurnTarget < Battle::Move
+  def canMagicCoat?; return true; end
+
+  def pbFailsAgainstTarget?(user, target, show_message)
+    return false if damagingMove?
+    return !target.pbCanBurn?(user, show_message, self)
+  end
+
+  def pbEffectAgainstTarget(user, target)
+    return if damagingMove?
+    target.pbBurn(user)
+  end
+
+  def pbAdditionalEffect(user, target)
+    return if target.damageState.substitute
+    target.pbBurn(user) if target.pbCanBurn?(user, false, self)
+  end
+  
+  def pbOverrideSuccessCheckPerHit(user, target)
+    return (Settings::MORE_TYPE_EFFECTS && statusMove? && user.pbHasType?(:FIRE))
+  end
+end
+
+#===============================================================================
+# Freezes the target.
+#===============================================================================
+class Battle::Move::FreezeTarget < Battle::Move
+  def canMagicCoat?; return true; end
+
+  def pbFailsAgainstTarget?(user, target, show_message)
+    return false if damagingMove?
+    return !target.pbCanFreeze?(user, show_message, self)
+  end
+
+  def pbEffectAgainstTarget(user, target)
+    return if damagingMove?
+    target.pbFreeze
+  end
+
+  def pbAdditionalEffect(user, target)
+    return if target.damageState.substitute
+    target.pbFreeze if target.pbCanFreeze?(user, false, self)
+  end
+  
+  def pbOverrideSuccessCheckPerHit(user, target)
+    return (Settings::MORE_TYPE_EFFECTS && statusMove? && user.pbHasType?(:ICE))
+  end
+end
+
+#===============================================================================
+# Confuses the target.
+#===============================================================================
+class Battle::Move::ConfuseTarget < Battle::Move
+  def canMagicCoat?; return true; end
+
+  def pbFailsAgainstTarget?(user, target, show_message)
+    return false if damagingMove?
+    return !target.pbCanConfuse?(user, show_message, self)
+  end
+
+  def pbEffectAgainstTarget(user, target)
+    return if damagingMove?
+    target.pbConfuse
+  end
+
+  def pbAdditionalEffect(user, target)
+    return if target.damageState.substitute
+    return if !target.pbCanConfuse?(user, false, self)
+    target.pbConfuse
+  end
+  
+  def pbOverrideSuccessCheckPerHit(user, target)
+    return (Settings::MORE_TYPE_EFFECTS && statusMove? && user.pbHasType?(:NORMAL))
+  end
+end

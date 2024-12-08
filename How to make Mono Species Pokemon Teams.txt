@@ -1,0 +1,54 @@
+If you want teams that are nothing but Togedemaru's and everything else inbetween,
+you have to use Debug Mode. 
+
+For 2.0 of Super Yellow Gameplay Edition, I ran out of time to set up 
+the Poke Park map. I wanted 2.0 finished before January 2025.
+
+In Super Yellow, there are over 1470 indivudual Pokemon species, when including every distinct form.
+If I did not run out of time when it was 1st December 2024, by the time I was finalizing the battle format setup 
+for 350 Pokemon Trainers, I would have setup Pokemon Park, with every legal species. 
+
+Debug mode can be enabled without the use of RPG Maker Xp 
+by passing the command line argument "debug" 
+
+How to pass the "debug" command line to the game 
+
+1. Right click on Game.exe (On Windows 10, select Show More Options)
+2. Create a Shortcut
+3. Rename the Shortcut to Game.exe - Debug Mode
+4. Right click on Game.exe - Debug Mode and select Properties (On Windows 10, select Show More Options)
+5. In Target, add debug at the end of the path like this:
+6. "C:\My Path\SYGE 2.0.0\Game.exe" debug
+
+When using the Debug Mode Shortcut, you must hold down the CTRL button to force the game to compile.
+Hold down the left or right CTRL key when Pokemon Essentials V21.1 window is visible. The window must be in focus.
+
+How to make Mono Species Pokemon Teams 
+
+Simple Duplication 
+
+1. In the Pokemon Party Screen while in Debug Mode, choose Debug 
+2. Choose Duplicate
+
+This will make a one to one copy of the Pokemon you have cloned.
+This does not change a Pokemon's form.
+
+Change a Pokemon Species
+
+1. In the Pokemon Party Screen while in Debug Mode, choose Debug 
+2. Choose Species/form...
+3. Choose Set species. Species are ordered by ID number, aka Pokedex Number 
+
+Change a Pokemon Form 
+
+1. In the Pokemon Party Screen while in Debug Mode, choose Debug 
+2. Choose Species/form...
+3. Choose Set form. 
+
+Generate a Pokemon 
+
+1. Press Z to open the pause menu 
+2. Choose Debug
+3. Choose Pokemon options...
+4. Choose Add Pokemon. Species are ordered by ID number, aka Pokedex Number 
+5. To get a specfic form and make a mono species team, refer to how to Change a Pokemon Form and Simple Duplication.
